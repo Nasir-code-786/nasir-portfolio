@@ -1,9 +1,3 @@
-/**
- * @author Ryan Balieiro
- * @date 2025-05-10
- * @description This provider is responsible for managing feedbacks, modals and UI interactions.
- */
-
 import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import {useScheduler} from "/src/hooks/scheduler.js"

@@ -1,0 +1,99 @@
+{
+  "developerSettings": {
+    "debugMode": false,
+    "fakeEmailRequests": false,
+    "stayOnThePreloaderScreen": false,
+    "version": "2.0.3"
+  },
+
+  "preloaderSettings": {
+    "enabled": true,
+    "title": "Welcome to <strong>My Portfolio</strong>",
+    "subtitle": "Full-Stack Developer & Solutions Architect",
+    "logoOffset": {
+      "right": 14,
+      "top": 2,
+      "bottom": 0
+    }
+  },
+
+  "templateSettings": {
+    "animatedCursorEnabled": true,
+    "backgroundStyle": "animated",
+    "defaultLanguageId": "en",
+    "defaultThemeId": "dark",
+    "fullscreenEnabled": true,
+    "showSpinnerOnThemeChange": false
+  },
+
+  "supportedLanguages": [
+    {
+      "name": "English",
+      "id": "en",
+      "flagUrl": "images/flags/en-us.png"
+    },
+    {
+      "name": "Español",
+      "id": "es",
+      "flagUrl": "images/flags/es.png"
+    },
+    {
+      "name": "Français",
+      "id": "fr",
+      "flagUrl": "images/flags/fr.png"
+    },
+    {
+      "name": "한국어",
+      "id": "ko",
+      "flagUrl": "images/flags/ko.png"
+    }
+  ],
+
+  "supportedThemes": [
+    {
+      "id": "dark",
+      "icon": "fa-solid fa-moon",
+      "dark": true,
+      "locales": {
+        "en": { "name": "Dark Mode" },
+        "es": { "name": "Modo Oscuro" },
+        "fr": { "name": "Mode Sombre" },
+        "ko": { "name": "다크 모드" }
+      }
+    },
+    {
+      "id": "light",
+      "icon": "fa-solid fa-sun",
+      "dark": false,
+      "locales": {
+        "en": { "name": "Light Mode" },
+        "es": { "name": "Modo Claro" },
+        "fr": { "name": "Mode Clair" },
+        "ko": { "name": "라이트 모드" }
+      }
+    }
+  ],
+
+  "consoleMessageForDevelopers": {
+    "title": "Hello World! You've found the console.",
+    "items": [
+      {
+        "description": "I'm a Full-Stack Developer passionate about building clean, scalable, and user-centric web applications.",
+        "list": [],
+        "listStyle": "none"
+      },
+      {
+        "description": "Interested in my work or want to collaborate?",
+        "list": [],
+        "listStyle": "none"
+      },
+      {
+        "description": "Let's connect:",
+        "list": ["LinkedIn: www.linkedin.com/in/nasir-khan-344973363"],
+        "listStyle": "bulleted"
+      }
+    ]
+  },
+
+  "imagesToCache": []
+}

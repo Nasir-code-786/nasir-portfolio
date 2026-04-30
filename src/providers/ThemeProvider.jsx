@@ -1,9 +1,3 @@
-/**
- * @author Ryan Balieiro
- * @date 2025-05-10
- * @description This provider handles the theme management for the application, allowing users to switch between different themes.
- */
-
 import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import ActivitySpinner from "/src/components/loaders/ActivitySpinner.jsx"

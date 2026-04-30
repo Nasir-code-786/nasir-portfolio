@@ -1,5 +1,5 @@
 {
-    "name": "Mark Choi",
+    "name": "Nasir Khan",
 
     "profilePictureUrl": "images/pictures/profile-picture.jpg",
     "resumePdfUrl": "",
@@ -10,8 +10,8 @@
 
     "locales": {
         "en": {
-            "localized_name": "Mark Choi",
-            "localized_name_stylized": " [[Mark {{Choi}}]]",
+            "localized_name": "Nasir Khan",
+            "localized_name_stylized": " [[Nasir {{Khan}}]]",
             "status_message_available_for_freelance": "Available for freelance!",
             "roles": [
                 "Backend Developer",
@@ -19,7 +19,7 @@
                 "DevOps Engineer",
                 "UX Designer"
             ],
-            "name_pronunciation_ipa": "/mark chwe/",
+            "name_pronunciation_ipa": "/nasir khan/",
             "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
         },
         "es": {

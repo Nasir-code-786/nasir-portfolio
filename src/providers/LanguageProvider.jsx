@@ -1,9 +1,3 @@
-/**
- * @author Ryan Balieiro
- * @date 2025-05-10
- * @description This provider is responsible for managing the application's language settings and translations.
- */
-
 import React, {createContext, useContext, useEffect, useState} from 'react'
 import {useUtils} from "/src/hooks/utils.js"
 import {useConstants} from "/src/hooks/constants.js"

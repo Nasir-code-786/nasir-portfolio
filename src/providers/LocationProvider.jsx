@@ -1,9 +1,3 @@
-/**
- * @author Ryan Balieiro
- * @date 2025-05-10
- * @description This provider acts as a router for the application, managing the active section and category based on the URL hash.
- */
-
 import React, {createContext, useContext, useEffect, useState} from 'react'
 
 function LocationProvider({ children, sections, categories }) {
