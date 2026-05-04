@@ -1,57 +1,55 @@
 {
-    "name": "Nasir Khan",
+  "name": "Nasir Khan",
 
-    "profilePictureUrl": "images/pictures/profile-picture.jpg",
-    "resumePdfUrl": "",
+  "profilePictureUrl": "images/pictures/nasir.png",
+  "resumePdfUrl": "",
 
-    "statusCircleVisible": true,
-    "statusCircleVariant": "available",
-    "statusCircleHoverMessage": "status_message_available_for_freelance",
+  "statusCircleVisible": true,
+  "statusCircleVariant": "available",
+  "statusCircleHoverMessage": "status_message_available_for_freelance",
 
-    "locales": {
-        "en": {
-            "localized_name": "Nasir Khan",
-            "localized_name_stylized": " [[Nasir {{Khan}}]]",
-            "status_message_available_for_freelance": "Available for freelance!",
-            "roles": [
-                "Backend Developer",
-                "Frontend Developer",
-                "DevOps Engineer",
-                "UX Designer"
-            ],
-            "name_pronunciation_ipa": "/nasir khan/",
-            "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
-        },
-        "es": {
-            "status_message_available_for_freelance": "¡Disponible para freelance!",
-            "roles": [
-                "Desarrollador Backend",
-                "Desarrollador Frontend",
-                "Ingeniero DevOps",
-                "Diseñador UX"
-            ]
-        },
-        "fr": {
-            "status_message_available_for_freelance": "Disponible pour freelance !",
-            "roles": [
-                "Développeur Backend",
-                "Développeur Frontend",
-                "Ingénieur DevOps",
-                "Designer UX"
-            ]
-        },
-        "ko": {
-            "localized_name": "최민석",
-            "localized_name_stylized": "{{최}}민석",
-            "status_message_available_for_freelance": "프리랜스 가능합니다!",
-            "roles": [
-                "백엔드 개발자",
-                "프론트엔드 개발자",
-                "데브옵스 엔지니어",
-                "UX 디자이너"
-            ],
-            "name_pronunciation_ipa": "/chwe min-seok/",
-            "name_pronunciation_audio_url": "audio/korean-name-pronunciation.mp3"
-        }
+  "locales": {
+    "en": {
+      "localized_name": "Nasir Khan",
+      "localized_name_stylized": "[[Nasir {{Khan}}]]",
+      "status_message_available_for_freelance": "Available for freelance opportunities",
+      "roles": [
+        "MERN Stack Developer",
+        "Full Stack Developer",
+        "Frontend Engineer",
+        "Backend Engineer"
+      ],
+      "name_pronunciation_ipa": "nasir khan",
+      "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
+    },
+    "es": {
+      "status_message_available_for_freelance": "Disponible para oportunidades freelance",
+      "roles": [
+        "Desarrollador MERN Stack",
+        "Desarrollador Full Stack",
+        "Ingeniero Frontend",
+        "Ingeniero Backend"
+      ]
+    },
+    "fr": {
+      "status_message_available_for_freelance": "Disponible pour des missions freelance",
+      "roles": [
+        "Développeur MERN Stack",
+        "Développeur Full Stack",
+        "Ingénieur Frontend",
+        "Ingénieur Backend"
+      ]
+    },
+    "ko": {
+      "localized_name": "나시르 칸",
+      "localized_name_stylized": "{{나시르}} 칸",
+      "status_message_available_for_freelance": "프리랜서 작업 가능합니다",
+      "roles": [
+        "MERN 스택 개발자",
+        "풀스택 개발자",
+        "프론트엔드 엔지니어",
+        "백엔드 엔지니어"
+      ]
     }
+  }
 }
