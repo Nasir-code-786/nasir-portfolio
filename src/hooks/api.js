@@ -1,6 +1,5 @@
 /**
- * @author Ryan Balieiro
- * @date 2025-05-10
+ * @author Nasir Khan
  * @description This hook provides methods to interact with external APIs.
  */
 
@@ -20,36 +19,32 @@ export const useApi = () => {
 }
 
 const validators = {
-    /**
-     * @param {String} name
-     * @param {String} email
-     * @param {String} subject
-     * @param {String} message
-     */
     validateEmailRequest: (name, email, subject, message) => {
         const minWordCountForMessage = 3
 
         const validations = [
-            { errorCode: constants.ErrorCodes.VALIDATION_EMPTY_FIELDS,      errorCondition: !name || !email || !subject || !message },
-            { errorCode: constants.ErrorCodes.VALIDATION_EMAIL,             errorCondition: !utils.validation.validateEmail(email) },
-            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_LENGTH,    errorCondition: !utils.validation.isLongerThan(message, minWordCountForMessage),    messageParameter: minWordCountForMessage + 1},
-            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_SPAM,      errorCondition: utils.validation.isSpam(message) },
+            { errorCode: constants.ErrorCodes.VALIDATION_EMPTY_FIELDS, errorCondition: !name || !email || !subject || !message },
+            { errorCode: constants.ErrorCodes.VALIDATION_EMAIL, errorCondition: !utils.validation.validateEmail(email) },
+            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_LENGTH, errorCondition: !utils.validation.isLongerThan(message, minWordCountForMessage), messageParameter: minWordCountForMessage + 1 },
+            { errorCode: constants.ErrorCodes.VALIDATION_MESSAGE_SPAM, errorCondition: utils.validation.isSpam(message) },
         ]
 
-        const error = validations.find(validation => validation.errorCondition)
+        const error = validations.find(v => v.errorCondition)
+
         return {
             success: !error,
             errorCode: error?.errorCode,
             errorParameter: error?.messageParameter,
+
             bundle: {
-                name: name,
+                name,
                 from_name: name,
-                email: email,
+                email,
                 from_email: email,
                 custom_subject: subject,
-                message: message,
+                message,
                 custom_source: utils.url.getAbsoluteLocation(),
-                custom_source_name: "React Portfolio"
+                custom_source_name: "Nasir Khan Portfolio"
             }
         }
     }
@@ -92,21 +87,23 @@ const handlers = {
 }
 
 const analytics = {
-    /**
-     * @description This method can be used to report a visit to an external analytics service.
-     * Here, you can integrate Google Analytics, Mixpanel, or your own custom analytics implementation.
-     * @returns {Promise<void>}
-     */
-    reportVisit: async() => {
-        await fetch("https://admin.ryanbalieiro.com/api/analytics/mock", {
-            method: 'POST',
-            headers: {'Content-Type': 'application/json'},
-            body: JSON.stringify({
-                params: {
-                    url: utils.url.getRootLocation(),
-                    template_id: "react-portfolio"
-                }
-            })
-        })
+    reportVisit: async () => {
+        try {
+
+            const visitData = {
+                url: window.location.href,
+                time: new Date().toISOString(),
+                userAgent: navigator.userAgent
+            }
+
+            console.log("📊 Portfolio Visit Tracked", visitData)
+
+            const existing = JSON.parse(localStorage.getItem("portfolio_visits") || "[]")
+            existing.push(visitData)
+            localStorage.setItem("portfolio_visits", JSON.stringify(existing))
+
+        } catch (error) {
+            console.error("Analytics error:", error)
+        }
     }
 }
