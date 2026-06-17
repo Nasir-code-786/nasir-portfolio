@@ -37,8 +37,8 @@ jsonUtils.overwrite(jSettingsPath, {
 
     preloaderSettings: {
         enabled: true,
-        title: "Welcome to <strong>My Portfolio</strong>",
-        subtitle: "Full-Stack Developer & Solutions Architect",
+        title: "Crafting <strong>Digital Excellence</strong>",
+        subtitle: "Full-Stack Developer · MERN Stack · Scalable Web Applications",
         logoOffset: {
             right: 14,
             top: 2,

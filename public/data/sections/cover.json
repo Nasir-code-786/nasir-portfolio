@@ -2,10 +2,10 @@
   "title": {
     "locales": {
       "en": {
-        "title_short": "Welcome!",
+        "title_short": "Introduction",
         "title_short_nav": "About Me",
-        "title_long_prefix": "Hello...",
-        "title_long": "I'm {{Nasir Khan!}}"
+        "title_long_prefix": "Engineering with purpose —",
+        "title_long": "I'm {{Nasir Khan}}"
       }
     }
   },
@@ -54,7 +54,7 @@
       "component": "ArticleText",
       "locales": {
         "en": {
-          "title": "{{About Me}}"
+          "title": "{{Who I Am}}"
         }
       },
       "settings": {
@@ -72,7 +72,7 @@
           },
           "locales": {
             "en": {
-              "text": "<p>I am a {{MERN Stack Developer}} with [[3+ years]] of experience building scalable, high-performance web applications and RESTful APIs. I hold a BSCS degree and specialize in JavaScript, React.js, Node.js, Express.js, MongoDB, and MySQL.</p><p>I focus on turning complex business requirements into clean, efficient, and user-focused digital solutions. My work involves designing reliable backend systems, improving application architecture, and enhancing user experiences through well-structured code and thoughtful UI integration.</p><p>I have contributed to real-world production systems by developing robust APIs, refining frontend functionality, and ensuring smooth communication between client and server-side components.</p><p>I enjoy solving challenging problems, optimizing application logic, and continuously improving performance and scalability through better engineering practices.</p><p>I thrive in Agile teams where collaboration, problem-solving, and continuous learning drive impactful results.</p><p>I’m always open to new opportunities—[[let’s connect!]]</p>"
+              "text": "<p>I'm a {{MERN Stack Developer}} with [[3+ years]] of experience building scalable, production-grade web applications and RESTful APIs. With a BSCS in Computer Science, I work across JavaScript, React.js, Node.js, Express.js, MongoDB, and MySQL to deliver software that performs under real-world demand.</p><p>My focus is simple: turn complex requirements into clean architecture, reliable backends, and interfaces people enjoy using. From database design and API integration to responsive frontends, I build end-to-end solutions with maintainability in mind.</p><p>At Code Enterprise, I've contributed to live products — including HR platforms and internal tools — collaborating with designers, QA, and engineering teams in Agile environments to ship on time without compromising quality.</p><p>I care about performance, clarity, and long-term code health. Whether optimizing queries, refining UX flows, or structuring services for scale, I approach every problem with precision and intent.</p><p>[[Available for freelance and full-time opportunities.]] I'd love to hear about what you're building.</p>"
             }
           }
         }
