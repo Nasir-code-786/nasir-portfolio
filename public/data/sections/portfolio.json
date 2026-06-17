@@ -30,12 +30,17 @@
           },
           "preview": {
             "screenshots": [
-              "images/pictures/ikmal.png"
+              "images/pictures/ikmal.png",
+              "images/pictures/ikmal-2.png",
+              "images/pictures/ikmal-3.png",
+              "images/pictures/ikmal-4.png",
+              "images/pictures/ikmal-5.png",
+              "images/pictures/ikmal-6.png"
             ],
             "screenshotsAspectRatio": "16:9",
             "links": [
               {
-                "href": "https://www.ikmal.sa",
+                "href": "https://www.ikmal.sa/landing",
                 "tooltipString": "open_website",
                 "faIcon": "fa-solid fa-link"
               }
@@ -44,13 +49,13 @@
           "locales": {
             "en": {
               "title": "Ikmal HR",
-              "text": "A production-ready HR management system built with <b>Next.js</b>, designed to streamline employee management, attendance tracking, and internal HR workflows. The platform provides real-time dashboards, role-based access, and data-driven insights to improve organizational efficiency.",
+              "text": "Ikmal HR is a production-grade human resources platform for organizations in Saudi Arabia, built with <b>Next.js</b>. The <b>Ikmal Smart Platform</b> centralizes attendance and leave, payroll, performance management, and executive dashboards in one secure workspace. A dedicated <b>Consultancy</b> portal extends the product with expert-led HR advisory and operations—supported by bilingual (English/Arabic) access, role-based permissions, and analytics for HR teams and leadership.",
               "tags": [
                 "Next.js",
                 "HR SaaS",
-                "Employee Management",
-                "Dashboard",
-                "Role-Based Access"
+                "Attendance & Payroll",
+                "Performance Management",
+                "Bilingual (EN/AR)"
               ]
             }
           }

@@ -116,7 +116,7 @@
           "preview": {
             "links": [
               {
-                "href": "https://www.ikmal.sa",
+                "href": "https://www.ikmal.sa/landing",
                 "tooltipString": "open_website",
                 "faIcon": "fa-solid fa-link"
               }
@@ -129,15 +129,15 @@
           },
           "locales": {
             "en": {
-              "title": "{{Production Delivery}} – Ikmal HR Platform",
+              "title": "{{Production Delivery}} – Ikmal HR",
               "province": "Islamabad",
               "country": "Pakistan",
               "institution": "Code Enterprise Pvt Ltd",
-              "text": "Contributed to the delivery of a production-ready HR management platform built with Next.js, including dashboards, role-based access, and internal workflow automation.",
+              "text": "Contributed to the delivery of Ikmal HR, a bilingual HRM platform for Saudi organizations—spanning the Ikmal Smart Platform for end-to-end HR operations and a Consultancy portal for expert-led HR services.",
               "list": [
-                "Built scalable frontend modules with Next.js and React",
-                "Integrated REST APIs for attendance and employee management",
-                "Improved application structure for long-term maintainability"
+                "Built Next.js modules for attendance, leave, payroll, and performance workflows",
+                "Developed executive dashboards with real-time HR analytics and reporting",
+                "Delivered bilingual (English/Arabic) experiences with role-based access control"
               ]
             }
           }

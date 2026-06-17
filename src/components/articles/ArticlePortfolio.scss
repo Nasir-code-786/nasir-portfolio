@@ -103,6 +103,10 @@ div.article-portfolio-item-media-frame {
     border-radius: 12px;
     background: linear-gradient(135deg, #1a120c 0%, #2a1a10 55%, #1a120c 100%);
     box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06);
+
+    &.is-clickable {
+        cursor: zoom-in;
+    }
 }
 
 div.article-portfolio-item-image {
@@ -118,12 +122,156 @@ div.article-portfolio-item-image {
         width: 100%;
         height: 100%;
         object-fit: cover;
+        object-position: center top;
         transition: transform 0.55s cubic-bezier(0.22, 1, 0.36, 1);
     }
 }
 
 div.article-portfolio-item:hover div.article-portfolio-item-image img {
     transform: scale(1.05);
+}
+
+div.article-portfolio-item-carousel {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+div.article-portfolio-item-carousel-swiper {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 0 !important;
+
+    div.swiper-slide {
+        height: 100%;
+    }
+
+    div.swiper-pagination {
+        bottom: 8px !important;
+        line-height: 1;
+    }
+
+    span.swiper-pagination-bullet {
+        width: 6px;
+        height: 6px;
+        opacity: 0.45;
+        background: #fff;
+        margin: 0 3px !important;
+    }
+
+    span.swiper-pagination-bullet-active {
+        opacity: 1;
+        background: var(--theme-primary);
+        transform: scale(1.15);
+    }
+
+    div.swiper-button-prev,
+    div.swiper-button-next {
+        width: 28px;
+        height: 28px;
+        margin-top: -14px;
+        border-radius: 8px;
+        color: var(--theme-texts);
+        background: rgba(0, 0, 0, 0.45);
+        border: 1px solid rgba(255, 255, 255, 0.12);
+        backdrop-filter: blur(6px);
+        transition: opacity 0.22s ease, background-color 0.22s ease;
+
+        &::after {
+            font-size: 0.72rem;
+            font-weight: 700;
+        }
+    }
+
+    @media (hover: hover) {
+        div.swiper-button-prev,
+        div.swiper-button-next {
+            opacity: 0;
+        }
+    }
+
+    @media (hover: none) {
+        div.swiper-button-prev,
+        div.swiper-button-next {
+            opacity: 0.9;
+        }
+    }
+
+    div.swiper-button-prev {
+        left: 8px;
+    }
+
+    div.swiper-button-next {
+        right: 8px;
+    }
+}
+
+div.article-portfolio-item-media-frame:hover div.article-portfolio-item-carousel-swiper {
+    div.swiper-button-prev,
+    div.swiper-button-next {
+        opacity: 1;
+    }
+}
+
+span.article-portfolio-item-carousel-counter {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 3;
+    padding: 4px 9px;
+    border-radius: 999px;
+    font-size: 0.68rem;
+    font-weight: 700;
+    letter-spacing: 0.06em;
+    color: var(--theme-texts);
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(8px);
+    pointer-events: none;
+}
+
+button.article-portfolio-item-media-expand {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+    width: 30px;
+    height: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    border-radius: 8px;
+    color: var(--theme-texts);
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px);
+    transition:
+        opacity 0.22s ease,
+        background-color 0.22s ease,
+        color 0.22s ease,
+        transform 0.22s ease;
+
+    i {
+        font-size: 0.78rem;
+    }
+
+    &:hover {
+        color: var(--theme-texts-inv);
+        background: var(--theme-primary);
+        transform: scale(1.04);
+    }
+
+    @media (hover: hover) {
+        opacity: 0;
+    }
+
+    @media (hover: none) {
+        opacity: 0.92;
+    }
+}
+
+div.article-portfolio-item-media-frame:hover button.article-portfolio-item-media-expand {
+    opacity: 1;
 }
 
 div.article-portfolio-item-image-fallback {

@@ -30,7 +30,13 @@
           },
           "preview": {
             "screenshots": [
-              "images/pictures/ikmal.png"
+              "images/pictures/ikmal.png",
+              "images/pictures/ikmal-2.png",
+              "images/pictures/ikmal-3.png",
+              "images/pictures/ikmal-4.png",
+              "images/pictures/ikmal-5.png",
+              "images/pictures/ikmal-6.png"
+
             ],
             "screenshotsAspectRatio": "16:9",
             "links": [
