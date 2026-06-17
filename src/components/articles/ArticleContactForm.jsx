@@ -13,6 +13,7 @@ import {MessageCard, MessageCardIcon, MessageCardBody, MessageCardFooter} from "
 import Input from "/src/components/forms/fields/Input.jsx"
 import Textarea from "/src/components/forms/fields/Textarea.jsx"
 import StandardButton from "/src/components/buttons/StandardButton.jsx"
+import {getEmailJsConfig} from "/src/config/emailjs.js"
 
 /**
  * @param {ArticleDataWrapper} dataWrapper
@@ -122,6 +123,17 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
         }
 
         setValidationError(null)
+
+        const emailJsConfig = getEmailJsConfig(dataWrapper.settings)
+        if(!emailJsConfig.isConfigured) {
+            feedbacks.displayNotification(
+                language.getString("error"),
+                language.getString("error_contact_form_not_configured"),
+                "error"
+            )
+            return
+        }
+
         setStatus(ArticleContactForm.Status.SUBMITTING)
         feedbacks.setActivitySpinnerVisible(true, dataWrapper.uniqueId, language.getString("sending_message"))
 
@@ -131,9 +143,9 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
         if(!fakeEmailRequests) {
             apiResponse = await api.handlers.sendEmailRequest(
                 apiValidation.bundle,
-                dataWrapper.settings.emailJsPublicKey,
-                dataWrapper.settings.emailJsServiceId,
-                dataWrapper.settings.emailJsTemplateId,
+                emailJsConfig.publicKey,
+                emailJsConfig.serviceId,
+                emailJsConfig.templateId,
             )
         }
         else {

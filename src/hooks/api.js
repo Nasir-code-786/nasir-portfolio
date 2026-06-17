@@ -41,8 +41,18 @@ const validators = {
                 from_name: name,
                 email,
                 from_email: email,
+                reply_to: email,
+                subject,
                 custom_subject: subject,
                 message,
+                time: new Date().toLocaleString("en-US", {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                    hour: "numeric",
+                    minute: "2-digit",
+                    hour12: true
+                }),
                 custom_source: utils.url.getAbsoluteLocation(),
                 custom_source_name: "Nasir Khan Portfolio"
             }
@@ -79,6 +89,9 @@ const handlers = {
             const result = await emailjs.send(serviceId, templateId, validationBundle)
             response.success = result.status === 200
         } catch (error) {
+            if(import.meta.env.DEV) {
+                console.error("[EmailJS] Failed to send message:", error)
+            }
             response.success = false
         }
 

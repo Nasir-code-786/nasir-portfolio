@@ -20,6 +20,7 @@
             "error": "Error",
             "error_file_not_found": "File not found",
             "error_sending_message": "There was an error sending your message. Please try again later.",
+            "error_contact_form_not_configured": "The contact form is not configured yet. Add your EmailJS keys to the .env file.",
             "error_validation_empty_fields": "Please fill in all fields.",
             "error_validation_email": "The e-mail you entered does not exist. Make sure you entered the correct e-mail address.",
             "error_validation_message_length": "Your message must contain at least [[{x}]] words.",
