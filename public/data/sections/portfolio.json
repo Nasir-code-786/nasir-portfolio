@@ -13,20 +13,8 @@
     {
       "id": 1,
       "component": "ArticlePortfolio",
-      "locales": {
-        "en": {
-          "category_all": "All",
-          "category_web": "Web",
-          "category_apps": "Apps",
-          "category_utilities": "Utilities"
-        }
-      },
+      "locales": {},
       "settings": {
-        "categorize_by": [
-          "category_apps",
-          "category_web",
-          "category_utilities"
-        ],
         "order_items_by": "id",
         "order_items_sort": "asc"
       },
