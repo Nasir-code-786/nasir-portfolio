@@ -87,27 +87,34 @@ function ArticlePortfolioItems({ dataWrapper, selectedItemCategoryId }) {
 function ArticlePortfolioItem({ itemWrapper }) {
     const language = useLanguage()
     const primaryLink = itemWrapper.preview?.links?.[0]
+    const coverImage = itemWrapper.img || itemWrapper.preview?.screenshots?.[0]
 
     return (
         <div className={`article-portfolio-item`}>
             <div className={`article-portfolio-item-media`}>
-                {itemWrapper.img ? (
-                    <ImageView src={itemWrapper.img}
-                               alt={itemWrapper.imageAlt}
-                               className={`article-portfolio-item-image`}
-                               hideSpinner={true}/>
-                ) : (
-                    <div className={`article-portfolio-item-image-fallback`}>
-                        <i className={itemWrapper.faIcon || `fa-solid fa-code`}/>
-                    </div>
-                )}
+                <div className={`article-portfolio-item-media-frame`}>
+                    {coverImage ? (
+                        <ImageView src={coverImage}
+                                   alt={itemWrapper.imageAlt}
+                                   className={`article-portfolio-item-image`}
+                                   hideSpinner={true}/>
+                    ) : (
+                        <div className={`article-portfolio-item-image-fallback`}>
+                            <i className={itemWrapper.faIcon || `fa-solid fa-code`}/>
+                        </div>
+                    )}
+                </div>
                 <div className={`article-portfolio-item-media-shade`}/>
+                <span className={`article-portfolio-item-media-badge`}>Featured Project</span>
             </div>
 
             <div className={`article-portfolio-item-content`}>
                 <div className={`article-portfolio-item-header`}>
-                    <h5 className={`article-portfolio-item-title`}
-                        dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
+                    <div className={`article-portfolio-item-header-text`}>
+                        <span className={`article-portfolio-item-eyebrow`}>Production build</span>
+                        <h5 className={`article-portfolio-item-title`}
+                            dangerouslySetInnerHTML={{__html: itemWrapper.locales.title || itemWrapper.placeholder}}/>
+                    </div>
 
                     {primaryLink?.href && (
                         <Link href={primaryLink.href}

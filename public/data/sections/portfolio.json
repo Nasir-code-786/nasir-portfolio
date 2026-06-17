@@ -22,13 +22,17 @@
         {
           "id": 1,
           "categoryId": "category_web",
-          "img": "images/pictures/hrm.png",
+          "img": "images/pictures/ikmal.png",
           "faIcon": "",
           "faIconColors": {
             "bg": "",
             "fill": ""
           },
           "preview": {
+            "screenshots": [
+              "images/pictures/ikmal.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
             "links": [
               {
                 "href": "https://www.ikmal.sa",
