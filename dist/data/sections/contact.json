@@ -43,20 +43,20 @@
       "items": [
         {
           "id": 1,
-          "faIcon": "fa-solid fa-phone",
+          "faIcon": "fa-brands fa-whatsapp",
           "faIconColors": {
             "bg": "",
             "fill": ""
           },
-          "label": "+1 (123) 456-7890",
+          "label": "+92 317 5026940",
           "link": {
-            "href": "tel:11234567890",
-            "tooltipString": "call_me"
+            "href": "https://wa.me/923175026940",
+            "tooltipString": "open_website"
           },
           "copyToClipboardButton": true,
           "locales": {
             "en": {
-              "title": "Phone"
+              "title": "WhatsApp"
             }
           }
         },
@@ -67,9 +67,9 @@
             "bg": "",
             "fill": ""
           },
-          "label": "mark.choi@email.com",
+          "label": "nasir.mehsud.work@gmail.com",
           "link": {
-            "href": "mailto:mark.choi@email.com",
+            "href": "mailto:nasir.mehsud.work@gmail.com",
             "tooltipString": "email_me"
           },
           "copyToClipboardButton": true,
@@ -86,10 +86,10 @@
             "bg": "",
             "fill": ""
           },
-          "label": "@markchoi",
+          "label": "Nasir Khan",
           "link": {
-            "href": "https://linkedin.com/in/",
-            "tooltipString": "open_website"
+            "href": "https://www.linkedin.com/in/nasir-khan-344973363",
+            "tooltipString": "open_linkedin"
           },
           "copyToClipboardButton": false,
           "locales": {
@@ -105,9 +105,9 @@
             "bg": "",
             "fill": ""
           },
-          "label": "Mark Choi",
+          "label": "Nasir Mehsud",
           "link": {
-            "href": "https://facebook.com/profiles/mark.choi.855/default",
+            "href": "https://www.facebook.com/nasir.mehsud",
             "tooltipString": "open_website"
           },
           "copyToClipboardButton": false,
@@ -124,9 +124,9 @@
             "bg": "",
             "fill": ""
           },
-          "label": "@codingmark",
+          "label": "@nasirm_ehsud",
           "link": {
-            "href": "https://instagram.com/",
+            "href": "https://www.instagram.com/nasirm_ehsud?utm_source=qr&igsh=dTM5eHBubGNlcHZi",
             "tooltipString": "open_website"
           },
           "copyToClipboardButton": false,
@@ -143,9 +143,9 @@
             "bg": "",
             "fill": ""
           },
-          "label": "@markchoi",
+          "label": "@nasir_mehsud",
           "link": {
-            "href": "https://tiktok.com/@markchoi",
+            "href": "https://www.tiktok.com/@nasir_mehsud?_r=1&_t=ZS-97Hu7DT6i2c",
             "tooltipString": "open_website"
           },
           "copyToClipboardButton": false,
