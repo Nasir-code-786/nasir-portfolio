@@ -6,28 +6,9 @@
         "title_short_nav": "Portfolio",
         "title_long_prefix": "Take a look at",
         "title_long": "My {{Portfolio}}"
-      },
-      "es": {
-        "title_short": "Portafolio",
-        "title_short_nav": "Portafolio",
-        "title_long_prefix": "Explora",
-        "title_long": "Mi {{Portafolio}}"
-      },
-      "fr": {
-        "title_short": "Portfolio",
-        "title_short_nav": "Portfolio",
-        "title_long_prefix": "Découvrez",
-        "title_long": "Mon {{Portfolio}}"
-      },
-      "ko": {
-        "title_short": "포트폴리오",
-        "title_short_nav": "포트폴리오",
-        "title_long_prefix": "이것은 내",
-        "title_long": "{{포트폴리오}}입니다"
       }
     }
   },
-
   "articles": [
     {
       "id": 1,
@@ -38,24 +19,6 @@
           "category_web": "Web",
           "category_apps": "Apps",
           "category_utilities": "Utilities"
-        },
-        "es": {
-          "category_all": "Todo",
-          "category_web": "Web",
-          "category_apps": "Apps",
-          "category_utilities": "Utilidades"
-        },
-        "fr": {
-          "category_all": "Tout",
-          "category_web": "Web",
-          "category_apps": "Apps",
-          "category_utilities": "Utilitaires"
-        },
-        "ko": {
-          "category_all": "모두",
-          "category_web": "웹",
-          "category_apps": "앱",
-          "category_utilities": "유틸리티"
         }
       },
       "settings": {
@@ -73,7 +36,10 @@
           "categoryId": "category_web",
           "img": "images/pictures/hrm.png",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "preview": {
             "links": [
               {
@@ -93,42 +59,6 @@
                 "Employee Management",
                 "Dashboard",
                 "Role-Based Access"
-              ]
-            },
-
-            "es": {
-              "title": "Ikmal HR",
-              "text": "Un sistema de gestión de recursos humanos listo para producción construido con <b>Next.js</b>, diseñado para optimizar la gestión de empleados, el seguimiento de asistencia y los flujos internos de RRHH. La plataforma ofrece paneles en tiempo real, acceso basado en roles y análisis de datos para mejorar la eficiencia organizativa.",
-              "tags": [
-                "Next.js",
-                "SaaS HR",
-                "Gestión de empleados",
-                "Panel",
-                "Acceso por roles"
-              ]
-            },
-
-            "fr": {
-              "title": "Ikmal HR",
-              "text": "Un système de gestion des ressources humaines prêt pour la production, développé avec <b>Next.js</b>, conçu pour optimiser la gestion des employés, le suivi des présences et les workflows RH internes. La plateforme propose des tableaux de bord en temps réel, un accès basé sur les rôles et des analyses pour améliorer l'efficacité organisationnelle.",
-              "tags": [
-                "Next.js",
-                "SaaS RH",
-                "Gestion des employés",
-                "Tableau de bord",
-                "Accès basé sur les rôles"
-              ]
-            },
-
-            "ko": {
-              "title": "Ikmal HR",
-              "text": "<b>Next.js</b>로 구축된 프로덕션 수준의 인사 관리 시스템으로, 직원 관리, 출석 추적 및 내부 HR 워크플로우를 효율적으로 처리하도록 설계되었습니다. 실시간 대시보드, 역할 기반 접근 제어 및 데이터 기반 인사이트를 제공합니다.",
-              "tags": [
-                "Next.js",
-                "HR SaaS",
-                "직원 관리",
-                "대시보드",
-                "역할 기반 접근"
               ]
             }
           }

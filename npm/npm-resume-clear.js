@@ -58,7 +58,7 @@ jsonUtils.overwrite(jSettingsPath, {
 
     supportedLanguages: [
         {
-            name: "English",
+            name: "English (US)",
             id: "en",
             flagUrl: "images/flags/en-us.png"
         }
@@ -70,8 +70,7 @@ jsonUtils.overwrite(jSettingsPath, {
             icon: "fa-solid fa-moon",
             dark: true,
             locales: {
-                en: {"name": "Dark Mode"},
-                es: {"name": "Modo Oscuro"}
+                en: {"name": "Dark Mode"}
             }
         },
 
@@ -80,8 +79,7 @@ jsonUtils.overwrite(jSettingsPath, {
             icon: "fa-solid fa-sun",
             dark: false,
             locales: {
-                en: {"name": "Light Mode"},
-                es: {"name": "Modo Claro"}
+                en: {"name": "Light Mode"}
             }
         }
     ],

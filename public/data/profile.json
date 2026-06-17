@@ -1,13 +1,10 @@
 {
   "name": "Nasir Khan",
-
   "profilePictureUrl": "images/pictures/profile-picture.jpg",
   "resumePdfUrl": "",
-
   "statusCircleVisible": true,
   "statusCircleVariant": "available",
   "statusCircleHoverMessage": "status_message_available_for_freelance",
-
   "locales": {
     "en": {
       "localized_name": "Nasir Khan",
@@ -21,35 +18,6 @@
       ],
       "name_pronunciation_ipa": "nasir khan",
       "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"
-    },
-    "es": {
-      "status_message_available_for_freelance": "Disponible para oportunidades freelance",
-      "roles": [
-        "Desarrollador MERN Stack",
-        "Desarrollador Full Stack",
-        "Ingeniero Frontend",
-        "Ingeniero Backend"
-      ]
-    },
-    "fr": {
-      "status_message_available_for_freelance": "Disponible pour des missions freelance",
-      "roles": [
-        "Développeur MERN Stack",
-        "Développeur Full Stack",
-        "Ingénieur Frontend",
-        "Ingénieur Backend"
-      ]
-    },
-    "ko": {
-      "localized_name": "나시르 칸",
-      "localized_name_stylized": "{{나시르}} 칸",
-      "status_message_available_for_freelance": "프리랜서 작업 가능합니다",
-      "roles": [
-        "MERN 스택 개발자",
-        "풀스택 개발자",
-        "프론트엔드 엔지니어",
-        "백엔드 엔지니어"
-      ]
     }
   }
 }
