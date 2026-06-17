@@ -153,16 +153,21 @@ function ArticleContactFormContent({ dataWrapper, selectedItemCategoryId, setSho
         }
 
         feedbacks.setActivitySpinnerVisible(false, dataWrapper.uniqueId)
-        _onApiResponse(apiResponse?.success)
+        _onApiResponse(apiResponse?.success, apiResponse?.errorText)
 
     }
 
-    const _onApiResponse = (success) => {
+    const _onApiResponse = (success, errorText) => {
         if(!success) {
             setStatus(ArticleContactForm.Status.WAITING_FOR_SUBMISSION)
+
+            const message = errorText ?
+                `${language.getString(constants.ErrorCodes.MESSAGE_SUBMIT_FAILED)} (${errorText})` :
+                language.getString(constants.ErrorCodes.MESSAGE_SUBMIT_FAILED)
+
             feedbacks.displayNotification(
                 language.getString("error"),
-                language.getString(constants.ErrorCodes.MESSAGE_SUBMIT_FAILED),
+                message,
                 "error"
             )
         }

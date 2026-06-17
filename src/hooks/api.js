@@ -81,18 +81,28 @@ const handlers = {
      * @return {Promise<{success: boolean}>}
      */
     sendEmailRequest: async (validationBundle, publicKey, serviceId, templateId) => {
-        emailjs.init(publicKey)
-
-        const response = {success: false}
+        const response = {success: false, errorText: null}
 
         try {
-            const result = await emailjs.send(serviceId, templateId, validationBundle)
+            emailjs.init({publicKey})
+
+            const result = await emailjs.send(
+                serviceId,
+                templateId,
+                validationBundle,
+                {publicKey}
+            )
+
             response.success = result.status === 200
         } catch (error) {
+            const errorText = error?.text || error?.message || String(error)
+
             if(import.meta.env.DEV) {
-                console.error("[EmailJS] Failed to send message:", error)
+                console.error("[EmailJS] Failed to send message:", errorText, error)
             }
+
             response.success = false
+            response.errorText = errorText
         }
 
         return response
