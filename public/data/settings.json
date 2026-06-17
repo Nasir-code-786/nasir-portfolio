@@ -3,7 +3,7 @@
     "debugMode": false,
     "fakeEmailRequests": false,
     "stayOnThePreloaderScreen": false,
-    "version": "2.0.3"
+    "version": "1.0.0"
   },
   "preloaderSettings": {
     "enabled": true,

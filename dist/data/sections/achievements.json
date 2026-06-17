@@ -26,74 +26,28 @@
         {
           "id": 1,
           "img": "",
-          "faIcon": "fa-solid fa-life-ring",
+          "faIcon": "fa-brands fa-js",
           "faIconColors": {
-            "bg": "#326CE5",
-            "fill": "#EEE"
+            "bg": "#F7DF1E",
+            "fill": "#111"
           },
           "date": {
-            "year": 2020,
-            "month": 12
+            "year": 2024,
+            "month": 6
           },
           "link": {
-            "href": "https://www.linuxfoundation.org/",
-            "tooltipString": "see_certification"
+            "href": "",
+            "tooltipString": ""
           },
           "locales": {
             "en": {
-              "title": "The {{Linux Foundation}}",
-              "text": "Certified Kubernetes Administrator (CKA)"
+              "title": "{{JavaScript}} & Modern Web",
+              "text": "Advanced proficiency in JavaScript, React.js, and full-stack web development through professional production work."
             }
           }
         },
         {
           "id": 2,
-          "img": "",
-          "faIcon": "fa-brands fa-aws",
-          "faIconColors": {
-            "bg": "#FFD700",
-            "fill": "#111"
-          },
-          "date": {
-            "year": 2021,
-            "month": 5
-          },
-          "link": {
-            "href": "https://www.aws.com/",
-            "tooltipString": "see_certification"
-          },
-          "locales": {
-            "en": {
-              "title": "{{Amazon}} Web Services",
-              "text": "AWS Certified Solutions Architect – Associate"
-            }
-          }
-        },
-        {
-          "id": 3,
-          "img": "",
-          "faIcon": "fa-brands fa-java",
-          "faIconColors": {
-            "bg": "#007396",
-            "fill": "#EEE"
-          },
-          "date": {
-            "year": 2022,
-            "month": 5
-          },
-          "link": {
-            "href": "https://www.oracle.com/",
-            "tooltipString": "see_certification"
-          },
-          "locales": {
-            "en": {
-              "title": "{{Oracle}}",
-              "text": "Certified Java Developer"
-            }
-          }
-        },
-        {
-          "id": 4,
           "img": "",
           "faIcon": "fa-solid fa-database",
           "faIconColors": {
@@ -105,13 +59,13 @@
             "month": 8
           },
           "link": {
-            "href": "https://www.mongodb.com/",
-            "tooltipString": "see_certification"
+            "href": "",
+            "tooltipString": ""
           },
           "locales": {
             "en": {
-              "title": "{{MongoDB}} University",
-              "text": "MongoDB Certified Developer"
+              "title": "{{MongoDB}} & Backend Systems",
+              "text": "Hands-on experience designing schemas, optimizing queries, and building RESTful APIs with MongoDB and Node.js."
             }
           }
         }
@@ -134,65 +88,56 @@
         {
           "id": 1,
           "date": {
-            "year": 2019,
-            "month": 9
+            "year": 2024,
+            "month": 12
           },
           "preview": {
-            "links": [
-              {
-                "href": "https://mag.wcoomd.org/uploads/2018/05/blank.pdf",
-                "tooltipString": "read",
-                "faIcon": "fa-solid fa-file-pdf"
-              }
-            ],
+            "links": [],
             "screenshots": [],
             "screenshotsAspectRatio": "",
             "youtubeVideo": ""
           },
           "locales": {
             "en": {
-              "title": "{{Best Graduation Project}} – Backend Optimization",
-              "province": "Massachusetts",
-              "country": "US",
-              "institution": "MIT",
-              "text": "Awarded for outstanding performance in optimizing backend systems during my final year project where I improved the efficiency of data processing by 30%. I have also received a certificate of recognition for this achievement."
+              "title": "{{Bachelor's Degree}} – Computer Science",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "FUUAST",
+              "text": "Completed a Bachelor's in Computer Science with a CGPA of 3.7/4.0, building a strong foundation in software engineering, data structures, algorithms, and AI-focused coursework."
             }
           }
         },
         {
           "id": 2,
           "date": {
-            "year": 2020,
-            "month": 5
+            "year": 2025,
+            "month": 3
           },
           "preview": {
             "links": [
               {
-                "href": "https://github.com/ryanbalieiro/react-portfolio-template",
-                "tooltipString": "see_on_github",
-                "faIcon": "fa-brands fa-github"
-              },
-              {
-                "href": "https://www.linuxfoundation.org/",
+                "href": "https://www.ikmal.sa",
                 "tooltipString": "open_website",
-                "faIcon": "fa-brands fa-linux"
+                "faIcon": "fa-solid fa-link"
               }
             ],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
+            "screenshots": [
+              "images/pictures/hrm.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
             "youtubeVideo": ""
           },
           "locales": {
             "en": {
-              "title": "{{Top Contributor}} – Open Source Linux Foundation Project",
-              "province": "",
-              "country": "",
-              "institution": "Linux Foundation",
-              "text": "Recognized as a top contributor for my significant contributions to an open source project under the Linux Foundation, where I implemented key features and resolved critical bugs, enhancing the project's stability and performance. My contributions involved: ",
+              "title": "{{Production Delivery}} – Ikmal HR Platform",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "Code Enterprise Pvt Ltd",
+              "text": "Contributed to the delivery of a production-ready HR management platform built with Next.js, including dashboards, role-based access, and internal workflow automation.",
               "list": [
-                "Implementing a new feature that improved user experience by 25%",
-                "Resolving over 50 critical bugs that enhanced system reliability",
-                "Contributing to the documentation and community support"
+                "Built scalable frontend modules with Next.js and React",
+                "Integrated REST APIs for attendance and employee management",
+                "Improved application structure for long-term maintainability"
               ]
             }
           }
@@ -200,25 +145,20 @@
         {
           "id": 3,
           "date": {
-            "year": 2022,
-            "month": 11
+            "year": 2025,
+            "month": 6
           },
           "preview": {
             "links": [
               {
-                "href": "https://medium.com",
+                "href": "https://nasir-portfolio-brown.vercel.app/",
                 "tooltipString": "open_website",
-                "faIcon": "fa-brands fa-medium"
+                "faIcon": "fa-solid fa-link"
               },
               {
-                "href": "https://www.ieee.org/",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-award"
-              },
-              {
-                "href": "https://www.acm.org/",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-trophy"
+                "href": "https://www.linkedin.com/in/nasir-khan-344973363",
+                "tooltipString": "open_linkedin",
+                "faIcon": "fa-brands fa-linkedin"
               }
             ],
             "screenshots": [],
@@ -227,50 +167,16 @@
           },
           "locales": {
             "en": {
-              "title": "{{Best Paper}} – International Summit",
-              "province": "Beijing",
-              "country": "China",
-              "institution": "IEEE",
-              "text": "Awarded for my research paper on software optimization techniques, which was presented at the International Conference on Software Engineering. The paper received positive feedback from industry experts and was published in the conference proceedings."
-            }
-          }
-        },
-        {
-          "id": 4,
-          "date": {
-            "year": 2024,
-            "month": 6
-          },
-          "preview": {
-            "links": [
-              {
-                "href": "https://medium.com",
-                "tooltipString": "open_website",
-                "faIcon": "fa-brands fa-medium"
-              }
-            ],
-            "screenshots": [
-              "images/pictures/screenshot-demo-square-1.jpg",
-              "images/pictures/screenshot-demo-square-2.jpg",
-              "images/pictures/screenshot-demo-square-3.jpg",
-              "images/pictures/screenshot-demo-square-4.jpg",
-              "images/pictures/screenshot-demo-square-5.jpg",
-              "images/pictures/screenshot-demo-square-6.jpg"
-            ],
-            "screenshotsAspectRatio": "1:1",
-            "youtubeVideo": "https://www.youtube.com/watch?v=RGTfS-48Gf0"
-          },
-          "locales": {
-            "en": {
-              "title": "{{Best Innovator}} – Tech Innovation Summit",
-              "province": "Rio de Janeiro",
-              "country": "Brazil",
-              "institution": "Tech Innovators Brazil",
-              "text": "Recognized as the [[best innovator]] for my groundbreaking work in developing a new software tool that significantly improved data analysis processes. The tool was adopted by several leading companies in the industry, and I received a certificate of recognition for my contributions. My tool featured the following innovations: ",
+              "title": "Launched my {{personal portfolio}}",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "",
+              "text": "Designed and launched my personal portfolio to showcase projects, technical skills, and professional experience as a MERN Stack developer.",
               "list": [
-                "Real-time data processing capabilities",
-                "User-friendly interface that reduced training time by 50%",
-                "Integration with popular data visualization tools"
+                "Portfolio with project highlights and case studies",
+                "Responsive layout with dark and light themes",
+                "Contact form for collaboration inquiries",
+                "LinkedIn integration for professional networking"
               ]
             }
           }

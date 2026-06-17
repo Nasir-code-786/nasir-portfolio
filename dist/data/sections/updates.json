@@ -22,50 +22,20 @@
         {
           "id": 1,
           "img": null,
-          "faIcon": "fa-solid fa-tablet-screen-button",
+          "faIcon": "fa-solid fa-briefcase",
           "faIconColors": {
             "bg": "",
             "fill": ""
           },
           "locales": {
             "en": {
-              "title": "03",
-              "text": "Apps Published"
+              "title": "03+",
+              "text": "Years of experience"
             }
           }
         },
         {
           "id": 2,
-          "img": null,
-          "faIcon": "fa-solid fa-star",
-          "faIconColors": {
-            "bg": "",
-            "fill": ""
-          },
-          "locales": {
-            "en": {
-              "title": "100+",
-              "text": "Stars on GitHub"
-            }
-          }
-        },
-        {
-          "id": 3,
-          "img": null,
-          "faIcon": "fa-solid fa-globe",
-          "faIconColors": {
-            "bg": "",
-            "fill": ""
-          },
-          "locales": {
-            "en": {
-              "title": "12",
-              "text": "Countries visited"
-            }
-          }
-        },
-        {
-          "id": 4,
           "img": null,
           "faIcon": "fa-solid fa-diagram-project",
           "faIconColors": {
@@ -74,23 +44,53 @@
           },
           "locales": {
             "en": {
-              "title": "07",
-              "text": "Open-source projects"
+              "title": "10+",
+              "text": "Projects delivered"
             }
           }
         },
         {
-          "id": 5,
+          "id": 3,
           "img": null,
-          "faIcon": "fa-solid fa-coffee",
+          "faIcon": "fa-solid fa-code",
           "faIconColors": {
             "bg": "",
             "fill": ""
           },
           "locales": {
             "en": {
-              "title": "20,000",
-              "text": "Coffees consumed"
+              "title": "MERN",
+              "text": "Primary tech stack"
+            }
+          }
+        },
+        {
+          "id": 4,
+          "img": null,
+          "faIcon": "fa-solid fa-users",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Agile",
+              "text": "Team collaboration"
+            }
+          }
+        },
+        {
+          "id": 5,
+          "img": null,
+          "faIcon": "fa-solid fa-map-marker-alt",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "locales": {
+            "en": {
+              "title": "PK",
+              "text": "Based in Islamabad"
             }
           }
         },
@@ -104,8 +104,8 @@
           },
           "locales": {
             "en": {
-              "title": "1,000,000+",
-              "text": "Lines of code"
+              "title": "Full Stack",
+              "text": "Frontend & backend"
             }
           }
         },
@@ -119,8 +119,8 @@
           },
           "locales": {
             "en": {
-              "title": "Infinite",
-              "text": "Passion for learning"
+              "title": "Always",
+              "text": "Learning & building"
             }
           }
         }
@@ -143,8 +143,8 @@
         {
           "id": 1,
           "date": {
-            "year": 2022,
-            "month": 9
+            "year": 2023,
+            "month": 5
           },
           "preview": {
             "links": [],
@@ -154,54 +154,48 @@
           },
           "locales": {
             "en": {
-              "title": "Relocating to {{California!}}",
-              "province": "Ontario",
-              "country": "Canada",
-              "institution": "",
-              "text": "I’ve recently made the move to California, USA, to explore new opportunities, both professionally and personally. I’m looking forward to discovering what this vibrant state has to offer and embracing all the challenges and experiences that come with this new chapter in my life. Excited for what’s ahead! Stay tuned for updates on my journey and the adventures that await in the Golden State!"
+              "title": "Joined {{Code Enterprise}}",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "Code Enterprise Pvt Ltd",
+              "text": "Started working as a Full Stack Developer, building scalable MERN and Next.js applications for production clients while collaborating closely with designers, QA, and backend teams."
             }
           }
         },
         {
           "id": 2,
           "date": {
-            "year": 2023,
-            "month": 6
+            "year": 2024,
+            "month": 12
           },
           "preview": {
-            "links": [
-              {
-                "href": "https://www.youtube.com/@jomakaze",
-                "tooltipString": "open_website",
-                "faIcon": "fa-solid fa-eye"
-              }
-            ],
+            "links": [],
             "screenshots": [],
             "screenshotsAspectRatio": "",
-            "youtubeVideo": "https://www.youtube.com/watch?v=oFCy3vEIAQk"
+            "youtubeVideo": ""
           },
           "locales": {
             "en": {
-              "title": "Started my own {{Youtube Channel!}}",
-              "province": "California",
-              "country": "US",
-              "institution": "",
-              "text": "I’m thrilled to announce the launch of my own YouTube channel! 🎥✨ Join me on this exciting journey as I share my passion for technology, coding, and all things digital. From tutorials and tips to project showcases, I can’t wait to connect with you all through this platform. Don’t forget to subscribe and hit the notification bell to stay updated on my latest videos. Let’s embark on this adventure together!"
+              "title": "Graduated with {{BSCS}}",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "FUUAST",
+              "text": "Completed my Bachelor's in Computer Science with a CGPA of 3.7/4.0, strengthening my foundation in software engineering, AI, and data-driven problem solving."
             }
           }
         },
         {
           "id": 3,
           "date": {
-            "year": 2024,
-            "month": 12
+            "year": 2025,
+            "month": 3
           },
           "preview": {
             "links": [
               {
-                "href": "https://medium.com",
+                "href": "https://www.ikmal.sa",
                 "tooltipString": "open_website",
-                "faIcon": "fa-brands fa-medium"
+                "faIcon": "fa-solid fa-link"
               }
             ],
             "screenshots": [],
@@ -210,16 +204,15 @@
           },
           "locales": {
             "en": {
-              "title": "Working on a new {{mobile project!}}",
-              "province": "California",
-              "country": "US",
-              "institution": "",
-              "text": "I’m excited to share that I’m currently working on a new mobile project! Some features of this project include:",
+              "title": "Shipped the {{Ikmal HR}} platform",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "Code Enterprise Pvt Ltd",
+              "text": "Helped deliver a production HR management system with employee tracking, dashboards, and role-based workflows for a real client environment.",
               "list": [
-                "Cross-platform compatibility with iOS and Android",
-                "User-friendly interface with intuitive navigation",
-                "Integration with popular APIs for enhanced functionality",
-                "Real-time data synchronization for seamless user experience"
+                "Next.js frontend with responsive dashboards",
+                "REST API integration for HR operations",
+                "Role-based access and internal workflow support"
               ]
             }
           }
@@ -228,41 +221,19 @@
           "id": 4,
           "date": {
             "year": 2025,
-            "month": 3
-          },
-          "preview": {
-            "links": [],
-            "screenshots": [],
-            "screenshotsAspectRatio": "",
-            "youtubeVideo": ""
-          },
-          "locales": {
-            "en": {
-              "title": "Attending the {{Tech Conference 2025!}}",
-              "province": "Tokyo",
-              "country": "Japan",
-              "institution": "Tech Innovators Inc.",
-              "text": "I’m thrilled to announce that I’ll be attending the [[Tech Conference 2025]] in Tokyo, Japan! This event is a fantastic opportunity to connect with industry leaders, learn about the latest trends in technology, and share insights with fellow tech enthusiasts. I’m looking forward to engaging in discussions, attending workshops, and exploring innovative solutions that are shaping the future of our industry. If you’re attending the conference, let’s connect! I’d love to meet fellow developers and tech lovers. Stay tuned for updates and highlights from the event!"
-            }
-          }
-        },
-        {
-          "id": 5,
-          "date": {
-            "year": 2025,
             "month": 6
           },
           "preview": {
             "links": [
               {
-                "href": "https://google.com",
+                "href": "https://nasir-portfolio-brown.vercel.app/",
                 "tooltipString": "open_website",
                 "faIcon": "fa-solid fa-link"
               },
               {
-                "href": "https://github.com/ryanbalieiro/react-portfolio-template",
-                "tooltipString": "see_on_github",
-                "faIcon": "fa-brands fa-github"
+                "href": "https://www.linkedin.com/in/nasir-khan-344973363",
+                "tooltipString": "open_linkedin",
+                "faIcon": "fa-brands fa-linkedin"
               }
             ],
             "screenshots": [],
@@ -271,16 +242,16 @@
           },
           "locales": {
             "en": {
-              "title": "Launched my {{personal website!}}",
-              "province": "California",
-              "country": "US",
+              "title": "Launched my {{personal website}}",
+              "province": "Islamabad",
+              "country": "Pakistan",
               "institution": "",
-              "text": "I’m excited to announce the launch of my [[personal website]]! 🎉 This platform is a space where I can share my projects, blog posts, and insights into the world of technology and development. It’s been a labor of love, and I can’t wait for you all to explore it. Here are some highlights of what you can find on the site:",
+              "text": "Published my personal portfolio to share projects, skills, and professional background with potential clients and collaborators.",
               "list": [
-                "Portfolio showcasing my projects and contributions",
-                "Blog with articles on technology, coding, and personal experiences",
-                "Contact form for inquiries and collaborations",
-                "Links to my social media profiles and GitHub"
+                "Project showcase with production case studies",
+                "Skills, experience, and education sections",
+                "Contact form for inquiries and freelance work",
+                "LinkedIn profile integration"
               ]
             }
           }

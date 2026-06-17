@@ -1,5 +1,4 @@
 /**
- * @author Ryan Balieiro
  * @date 2025-05-10
  */
 
