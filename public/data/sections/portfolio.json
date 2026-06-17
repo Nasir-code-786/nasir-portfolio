@@ -59,6 +59,48 @@
               ]
             }
           }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-comments",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "screenshots": [
+              "images/pictures/sync-chat-5.png",
+              "images/pictures/sync-chat-2.png",
+              "images/pictures/sync-chat-3.png",
+              "images/pictures/sync-chat-4.png",
+              "images/pictures/sync-chat-1.png",
+              "images/pictures/sync-chat-6.png"
+
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "links": [
+              {
+                "href": "https://github.com/Nasir-code-786/sync-chat",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "SyncChat",
+              "text": "SyncChat is a real-time 1:1 messaging app built with <b>React</b>, <b>Express</b>, <b>MongoDB</b>, and <b>Socket.IO</b>. It offers a modern chat UI with delivery and read receipts, typing indicators, and rich messaging—text, images, voice notes, replies, reactions, edits, and deletes. Users can pin, mute, archive, and block conversations; search across chats; and customize profiles with Cloudinary-backed photos. The product includes JWT and Google OAuth sign-in, link previews, light/dark themes, offline message queuing, optional notification sounds, and an <b>admin panel</b> for moderation—protected by Arcjet rate limiting on authentication routes.",
+              "tags": [
+                "React",
+                "Socket.IO",
+                "MongoDB",
+                "Read Receipts",
+                "Full Stack"
+              ]
+            }
+          }
         }
       ]
     }
