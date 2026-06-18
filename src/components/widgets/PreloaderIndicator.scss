@@ -1,0 +1,113 @@
+@import "/src/styles/extend.scss";
+
+div.preloader-indicator-wrapper {
+    --size: 96px;
+    @include media-breakpoint-down(xxl) { --size: 96px; }
+    @include media-breakpoint-down(xl) { --size: 88px; }
+    @include media-breakpoint-down(lg) { --size: 84px; }
+    @include media-breakpoint-down(md) { --size: 78px; }
+    @include media-breakpoint-down(sm) { --size: 72px; }
+
+    width: var(--size);
+    height: var(--size);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 4px;
+    transition: 0.45s opacity ease-out, 0.45s transform ease-out, 0.45s scale ease-out;
+}
+
+div.preloader-indicator-wrapper-hidden {
+    opacity: 0;
+    scale: 0.85;
+    transform: translateY(-24px);
+    transition: none;
+}
+
+div.preloader-indicator {
+    position: relative;
+    width: var(--size);
+    height: var(--size);
+}
+
+div.preloader-indicator-ring {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2px solid rgba($loader-contrast, 0.08);
+}
+
+div.preloader-indicator-arc {
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;
+    border: 2px solid transparent;
+    border-top-color: $primary;
+    border-right-color: rgba($primary, 0.35);
+    animation: preloader-indicator-spin 1.15s cubic-bezier(0.55, 0.15, 0.35, 0.85) infinite;
+}
+
+div.preloader-indicator-core {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(var(--size) * 0.14);
+    height: calc(var(--size) * 0.14);
+    margin-top: calc(var(--size) * -0.07);
+    margin-left: calc(var(--size) * -0.07);
+    border-radius: 50%;
+    background: $primary;
+    box-shadow:
+        0 0 12px rgba($primary, 0.55),
+        0 0 28px rgba($primary, 0.18);
+    animation: preloader-indicator-pulse 1.8s ease-in-out infinite;
+}
+
+div.preloader-indicator-orbit {
+    position: absolute;
+    inset: calc(var(--size) * 0.18);
+    animation: preloader-indicator-spin 2.4s linear infinite reverse;
+}
+
+span.preloader-indicator-orbit-dot {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: calc(var(--size) * 0.055);
+    height: calc(var(--size) * 0.055);
+    margin-left: calc(var(--size) * -0.0275);
+    border-radius: 50%;
+    background: rgba($loader-contrast, 0.85);
+    box-shadow: 0 0 8px rgba($loader-contrast, 0.25);
+    transform-origin: 50% calc(var(--size) * 0.32);
+}
+
+span.preloader-indicator-orbit-dot-1 {
+    opacity: 1;
+}
+
+span.preloader-indicator-orbit-dot-2 {
+    transform: rotate(120deg);
+    opacity: 0.65;
+}
+
+span.preloader-indicator-orbit-dot-3 {
+    transform: rotate(240deg);
+    opacity: 0.35;
+}
+
+@keyframes preloader-indicator-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+@keyframes preloader-indicator-pulse {
+    0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(0.82);
+        opacity: 0.72;
+    }
+}

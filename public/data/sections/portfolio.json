@@ -6,64 +6,15 @@
         "title_short_nav": "Portfolio",
         "title_long_prefix": "Take a look at",
         "title_long": "My {{Portfolio}}"
-      },
-      "es": {
-        "title_short": "Portafolio",
-        "title_short_nav": "Portafolio",
-        "title_long_prefix": "Explora",
-        "title_long": "Mi {{Portafolio}}"
-      },
-      "fr": {
-        "title_short": "Portfolio",
-        "title_short_nav": "Portfolio",
-        "title_long_prefix": "Découvrez",
-        "title_long": "Mon {{Portfolio}}"
-      },
-      "ko": {
-        "title_short": "포트폴리오",
-        "title_short_nav": "포트폴리오",
-        "title_long_prefix": "이것은 내",
-        "title_long": "{{포트폴리오}}입니다"
       }
     }
   },
-
   "articles": [
     {
       "id": 1,
       "component": "ArticlePortfolio",
-      "locales": {
-        "en": {
-          "category_all": "All",
-          "category_web": "Web",
-          "category_apps": "Apps",
-          "category_utilities": "Utilities"
-        },
-        "es": {
-          "category_all": "Todo",
-          "category_web": "Web",
-          "category_apps": "Apps",
-          "category_utilities": "Utilidades"
-        },
-        "fr": {
-          "category_all": "Tout",
-          "category_web": "Web",
-          "category_apps": "Apps",
-          "category_utilities": "Utilitaires"
-        },
-        "ko": {
-          "category_all": "모두",
-          "category_web": "웹",
-          "category_apps": "앱",
-          "category_utilities": "유틸리티"
-        }
-      },
+      "locales": {},
       "settings": {
-        "categorize_by": [
-          "category_apps",
-          "category_web",
-          "category_utilities"
-        ],
         "order_items_by": "id",
         "order_items_sort": "asc"
       },
@@ -71,13 +22,25 @@
         {
           "id": 1,
           "categoryId": "category_web",
-          "img": "images/pictures/hrm.png",
+          "img": "images/pictures/ikmal.png",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "preview": {
+            "screenshots": [
+              "images/pictures/ikmal.png",
+              "images/pictures/ikmal-2.png",
+              "images/pictures/ikmal-3.png",
+              "images/pictures/ikmal-4.png",
+              "images/pictures/ikmal-5.png",
+              "images/pictures/ikmal-6.png"
+            ],
+            "screenshotsAspectRatio": "16:9",
             "links": [
               {
-                "href": "https://www.ikmal.sa",
+                "href": "https://www.ikmal.sa/landing",
                 "tooltipString": "open_website",
                 "faIcon": "fa-solid fa-link"
               }
@@ -86,49 +49,106 @@
           "locales": {
             "en": {
               "title": "Ikmal HR",
-              "text": "A production-ready HR management system built with <b>Next.js</b>, designed to streamline employee management, attendance tracking, and internal HR workflows. The platform provides real-time dashboards, role-based access, and data-driven insights to improve organizational efficiency.",
+              "text": "Ikmal HR is a production-grade human resources platform for organizations in Saudi Arabia, built with <b>Next.js</b>. The <b>Ikmal Smart Platform</b> centralizes attendance and leave, payroll, performance management, and executive dashboards in one secure workspace. A dedicated <b>Consultancy</b> portal extends the product with expert-led HR advisory and operations—supported by bilingual (English/Arabic) access, role-based permissions, and analytics for HR teams and leadership.",
               "tags": [
                 "Next.js",
                 "HR SaaS",
-                "Employee Management",
-                "Dashboard",
+                "Attendance & Payroll",
+                "Performance Management",
+                "Bilingual (EN/AR)"
+              ]
+            }
+          }
+        },
+        {
+          "id": 2,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-comments",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "screenshots": [
+              "images/pictures/sync-chat-5.png",
+              "images/pictures/sync-chat-2.png",
+              "images/pictures/sync-chat-3.png",
+              "images/pictures/sync-chat-4.png",
+              "images/pictures/sync-chat-1.png",
+              "images/pictures/sync-chat-6.png"
+
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "links": [
+              {
+                "href": "https://github.com/Nasir-code-786/sync-chat",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "SyncChat",
+              "text": "SyncChat is a real-time 1:1 messaging app built with <b>React</b>, <b>Express</b>, <b>MongoDB</b>, and <b>Socket.IO</b>. It offers a modern chat UI with delivery and read receipts, typing indicators, and rich messaging—text, images, voice notes, replies, reactions, edits, and deletes. Users can pin, mute, archive, and block conversations; search across chats; and customize profiles with Cloudinary-backed photos. The product includes JWT and Google OAuth sign-in, link previews, light/dark themes, offline message queuing, optional notification sounds, and an <b>admin panel</b> for moderation—protected by Arcjet rate limiting on authentication routes.",
+              "tags": [
+                "React",
+                "Socket.IO",
+                "MongoDB",
+                "Read Receipts",
+                "Full Stack"
+              ]
+            }
+          }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "screenshots": [
+              "images/pictures/ilm-10.png",
+              "images/pictures/ilm-11.png",
+              "images/pictures/ilm-12.png",
+              "images/pictures/ilm-13.png",
+              "images/pictures/ilm-14.png",
+              "images/pictures/ilm-15.png",
+              "images/pictures/ilm-1.png",
+              "images/pictures/ilm-2.png",
+              "images/pictures/ilm-3.png",
+              "images/pictures/ilm-4.png",
+              "images/pictures/ilm-5.png",
+              "images/pictures/ilm-6.png",
+              "images/pictures/ilm-7.png",
+              "images/pictures/ilm-8.png",
+              "images/pictures/ilm-9.png"
+
+            ],
+            "screenshotsAspectRatio": "16:9",
+            "links": [
+              {
+                "href": "https://github.com/Nasir-code-786/ilm-give",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "ILM Give",
+              "text": "ILM Give is a modern learning management platform for schools and educational institutes, built as a <b>Next.js</b> and <b>Express</b> monorepo with <b>MongoDB</b>. It unifies academics, assignments, grading, notifications, and role-based dashboards for admins, teachers, and students—alongside a public website with blog publishing, charity campaigns, and a <b>Stripe</b>-powered donation flow. Admins manage users, content, and contact submissions through a full CMS, while public routes ship with SEO metadata, sitemaps, and structured data for discoverability.",
+              "tags": [
+                "Next.js",
+                "LMS",
+                "MongoDB",
+                "Stripe Donations",
                 "Role-Based Access"
-              ]
-            },
-
-            "es": {
-              "title": "Ikmal HR",
-              "text": "Un sistema de gestión de recursos humanos listo para producción construido con <b>Next.js</b>, diseñado para optimizar la gestión de empleados, el seguimiento de asistencia y los flujos internos de RRHH. La plataforma ofrece paneles en tiempo real, acceso basado en roles y análisis de datos para mejorar la eficiencia organizativa.",
-              "tags": [
-                "Next.js",
-                "SaaS HR",
-                "Gestión de empleados",
-                "Panel",
-                "Acceso por roles"
-              ]
-            },
-
-            "fr": {
-              "title": "Ikmal HR",
-              "text": "Un système de gestion des ressources humaines prêt pour la production, développé avec <b>Next.js</b>, conçu pour optimiser la gestion des employés, le suivi des présences et les workflows RH internes. La plateforme propose des tableaux de bord en temps réel, un accès basé sur les rôles et des analyses pour améliorer l'efficacité organisationnelle.",
-              "tags": [
-                "Next.js",
-                "SaaS RH",
-                "Gestion des employés",
-                "Tableau de bord",
-                "Accès basé sur les rôles"
-              ]
-            },
-
-            "ko": {
-              "title": "Ikmal HR",
-              "text": "<b>Next.js</b>로 구축된 프로덕션 수준의 인사 관리 시스템으로, 직원 관리, 출석 추적 및 내부 HR 워크플로우를 효율적으로 처리하도록 설계되었습니다. 실시간 대시보드, 역할 기반 접근 제어 및 데이터 기반 인사이트를 제공합니다.",
-              "tags": [
-                "Next.js",
-                "HR SaaS",
-                "직원 관리",
-                "대시보드",
-                "역할 기반 접근"
               ]
             }
           }

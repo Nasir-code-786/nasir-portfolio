@@ -2,32 +2,13 @@
   "title": {
     "locales": {
       "en": {
-        "title_short": "Welcome!",
+        "title_short": "Introduction",
         "title_short_nav": "About Me",
-        "title_long_prefix": "Hello...",
-        "title_long": "I'm {{Nasir Khan!}}"
-      },
-      "es": {
-        "title_short": "¡Bienvenido!",
-        "title_short_nav": "Sobre mí",
-        "title_long_prefix": "Hola...",
-        "title_long": "Soy {{Nasir Khan!}}"
-      },
-      "fr": {
-        "title_short": "Bienvenue !",
-        "title_short_nav": "À propos",
-        "title_long_prefix": "Bonjour...",
-        "title_long": "Je suis {{Nasir Khan !}}"
-      },
-      "ko": {
-        "title_short": "환영합니다!",
-        "title_short_nav": "소개",
-        "title_long_prefix": "안녕하세요...",
-        "title_long": "{{Nasir Khan}}입니다!"
+        "title_long_prefix": "Engineering with purpose —",
+        "title_long": "I'm {{Nasir Khan}}"
       }
     }
   },
-
   "articles": [
     {
       "id": 1,
@@ -42,7 +23,10 @@
         {
           "id": 1,
           "label": "Islamabad – Pakistan",
-          "link": { "href": "", "tooltipString": "" },
+          "link": {
+            "href": "",
+            "tooltipString": ""
+          },
           "faIcon": "pi pi-map-marker"
         },
         {
@@ -65,15 +49,13 @@
         }
       ]
     },
-
     {
       "id": 2,
       "component": "ArticleText",
       "locales": {
-        "en": { "title": "{{About Me}}" },
-        "es": { "title": "{{Sobre mí}}" },
-        "fr": { "title": "{{À propos de moi}}" },
-        "ko": { "title": "{{소개}}" }
+        "en": {
+          "title": "{{Who I Am}}"
+        }
       },
       "settings": {
         "order_items_by": "id",
@@ -84,33 +66,25 @@
           "id": 1,
           "img": "images/pictures/about-texts-image-1.png",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
-              "text": "<p>I am a {{MERN Stack Developer}} with [[3+ years]] of experience building scalable, high-performance web applications and RESTful APIs. I hold a BSCS degree and specialize in JavaScript, React.js, Node.js, Express.js, MongoDB, and MySQL.</p><p>I focus on turning complex business requirements into clean, efficient, and user-focused digital solutions. My work involves designing reliable backend systems, improving application architecture, and enhancing user experiences through well-structured code and thoughtful UI integration.</p><p>I have contributed to real-world production systems by developing robust APIs, refining frontend functionality, and ensuring smooth communication between client and server-side components.</p><p>I enjoy solving challenging problems, optimizing application logic, and continuously improving performance and scalability through better engineering practices.</p><p>I thrive in Agile teams where collaboration, problem-solving, and continuous learning drive impactful results.</p><p>I’m always open to new opportunities—[[let’s connect!]]</p>"
-            },
-            "es": {
-              "text": "<p>Soy un {{desarrollador MERN Stack}} con [[más de 3 años]] de experiencia creando aplicaciones web escalables y APIs RESTful de alto rendimiento. Tengo un título en BSCS y me especializo en JavaScript, React.js, Node.js, Express.js, MongoDB y MySQL.</p><p>Me enfoco en transformar requisitos complejos en soluciones digitales limpias, eficientes y centradas en el usuario. Mi trabajo incluye el diseño de sistemas backend confiables, la mejora de arquitecturas de aplicaciones y la optimización de la experiencia de usuario.</p><p>He contribuido a sistemas en producción desarrollando APIs robustas, mejorando funcionalidades frontend y asegurando una comunicación fluida entre el cliente y el servidor.</p><p>Disfruto resolver problemas desafiantes, optimizar la lógica de las aplicaciones y mejorar continuamente el rendimiento y la escalabilidad.</p><p>Me adapto bien a equipos Agile donde la colaboración y el aprendizaje continuo generan resultados de impacto.</p><p>Estoy abierto a nuevas oportunidades—[[¡conectemos!]]</p>"
-            },
-            "fr": {
-              "text": "<p>Je suis {{développeur MERN Stack}} avec [[plus de 3 ans]] d’expérience dans la création d’applications web évolutives et d’API RESTful performantes. Titulaire d’un BSCS, je me spécialise en JavaScript, React.js, Node.js, Express.js, MongoDB et MySQL.</p><p>Je me concentre sur la transformation de besoins complexes en solutions digitales propres, efficaces et centrées sur l’utilisateur. Mon travail inclut la conception de systèmes backend fiables, l’amélioration de l’architecture des applications et l’optimisation de l’expérience utilisateur.</p><p>J’ai contribué à des systèmes en production en développant des API robustes, en améliorant les fonctionnalités frontend et en assurant une communication fluide entre client et serveur.</p><p>J’aime résoudre des problèmes complexes, optimiser la logique applicative et améliorer continuellement les performances et la scalabilité.</p><p>Je m’épanouis dans des équipes Agile où la collaboration et l’apprentissage continu créent de la valeur.</p><p>Je suis ouvert aux opportunités—[[connectons-nous !]]</p>"
-            },
-            "ko": {
-              "text": "<p>저는 {{MERN 스택 개발자}}로서 [[3년 이상의]] 경험을 바탕으로 확장 가능하고 고성능의 웹 애플리케이션 및 RESTful API를 개발합니다. BSCS 학위를 보유하고 있으며 JavaScript, React.js, Node.js, Express.js, MongoDB, MySQL을 전문으로 합니다.</p><p>복잡한 비즈니스 요구사항을 깔끔하고 효율적이며 사용자 중심의 디지털 솔루션으로 전환하는 데 집중합니다. 안정적인 백엔드 시스템 설계, 애플리케이션 구조 개선, UI와 서버 간의 원활한 연동을 담당합니다.</p><p>실제 프로덕션 환경에서 강력한 API 개발, 프론트엔드 기능 개선, 클라이언트-서버 간 안정적인 데이터 흐름을 구축한 경험이 있습니다.</p><p>복잡한 문제 해결, 애플리케이션 로직 최적화, 성능 및 확장성 개선을 지속적으로 추구합니다.</p><p>협업과 지속적인 학습이 중요한 Agile 환경에서 가장 잘 성장합니다.</p><p>새로운 기회를 환영합니다—[[함께 이야기해요!]]</p>"
+              "text": "<p>I'm a {{Full Stack Developer}} with [[3+ years]] of experience delivering scalable, production-grade web applications and RESTful APIs. With a BSCS in Computer Science, I build end-to-end software—from high-performing interfaces to dependable backends and data layers engineered for real-world demand.</p><p>On the frontend, I specialize in <b>React.js</b>, <b>Next.js</b>, <b>TypeScript</b>, and <b>JavaScript</b>, with strong command of <b>HTML</b>, <b>CSS</b>, <b>Bootstrap</b>, and <b>Tailwind CSS</b>. I apply modern rendering strategies (SSR, SSG, CSR, and hybrid patterns), implement <b>SEO</b> best practices, and manage state with <b>Redux</b> and <b>React Query</b>. Quality is backed by <b>Jest</b>, <b>React Testing Library</b>, and <b>Cypress</b>.</p><p>On the backend, I develop with <b>Node.js</b>, <b>Express.js</b>, and <b>NestJS</b>, including real-time systems with <b>Socket.IO</b>. I work across <b>MySQL</b>, <b>MongoDB</b>, and <b>PostgreSQL</b>, using <b>Prisma</b>, <b>TypeORM</b>, and <b>Sequelize</b> for clean data modeling, plus <b>Redis</b> for caching and performance. I deploy and operate on <b>AWS</b> (<b>EC2</b>, <b>S3</b>, <b>Lambda</b>) with a focus on reliability and maintainability.</p><p>At Code Enterprise, I've shipped live products—including HR platforms, real-time messaging apps, and learning management systems—working closely with designers, QA, and engineering teams in Agile environments to deliver on time without compromising quality.</p><p>I care about clean architecture, measurable performance, and code that scales with your product. [[Available for freelance and full-time opportunities.]] If you're hiring for ambitious work, I'd welcome the conversation.</p>"
             }
           }
         }
       ]
     },
-
     {
       "id": 3,
       "component": "ArticleTestimonials",
       "locales": {
-        "en": { "title": "Client {{testimonials}}" },
-        "es": { "title": "Testimonios de {{clientes}}" },
-        "fr": { "title": "Témoignages de {{clients}}" },
-        "ko": { "title": "{{고객}} 추천사" }
+        "en": {
+          "title": "Client {{testimonials}}"
+        }
       },
       "settings": {
         "order_items_by": "id",
@@ -126,23 +100,14 @@
           },
           "img": "images/pictures/islam.jpeg",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
               "title": "CEO at [[Code Enterprises]]",
               "text": "Nasir played a key role in improving our project execution. His technical clarity, structured thinking, and collaborative approach made complex tasks easier to manage and significantly improved overall delivery quality."
-            },
-            "es": {
-              "title": "CEO en [[Code Enterprises]]",
-              "text": "Nasir desempeñó un papel clave en la mejora de la ejecución de nuestros proyectos. Su claridad técnica, pensamiento estructurado y enfoque colaborativo facilitaron tareas complejas y mejoraron la calidad general de las entregas."
-            },
-            "fr": {
-              "title": "CEO chez [[Code Enterprises]]",
-              "text": "Nasir a joué un rôle clé dans l’amélioration de l’exécution de nos projets. Sa clarté technique, sa pensée structurée et son esprit collaboratif ont facilité les tâches complexes et amélioré la qualité globale des livrables."
-            },
-            "ko": {
-              "title": "[[Code Enterprises]] CEO",
-              "text": "Nasir는 프로젝트 실행을 개선하는 데 중요한 역할을 했습니다. 그의 기술적 명확성, 체계적인 사고, 그리고 협업 능력은 복잡한 작업을 쉽게 만들고 전반적인 결과물 품질을 향상시켰습니다."
             }
           }
         },
@@ -155,23 +120,14 @@
           },
           "img": "images/pictures/shahab.jpeg",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
               "title": "Full Stack Developer at [[Hoplon InfoSec]]",
               "text": "Working alongside Nasir brought strong technical direction to our team. He not only contributed solid development work but also helped improve decision-making and overall code quality through his guidance."
-            },
-            "es": {
-              "title": "Full Stack Developer en [[Hoplon InfoSec]]",
-              "text": "Trabajar con Nasir aportó una gran dirección técnica a nuestro equipo. No solo contribuyó con un sólido desarrollo, sino que también mejoró la toma de decisiones y la calidad del código."
-            },
-            "fr": {
-              "title": "Développeur Full Stack chez [[Hoplon InfoSec]]",
-              "text": "Travailler avec Nasir a apporté une forte direction technique à notre équipe. Il a non seulement contribué au développement, mais aussi amélioré la prise de décision et la qualité du code."
-            },
-            "ko": {
-              "title": "[[Hoplon InfoSec]] 풀스택 개발자",
-              "text": "Nasir와 함께 일하면서 팀의 기술 방향성이 크게 향상되었습니다. 그는 개발뿐만 아니라 의사결정과 코드 품질 개선에도 큰 기여를 했습니다."
             }
           }
         },
@@ -184,23 +140,14 @@
           },
           "img": "images/pictures/waheed.png",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
               "title": "Full Stack Developer at [[Code Enterprises]]",
               "text": "Nasir consistently improved our development efficiency. His ability to break down complex problems and deliver practical solutions helped the team move faster with fewer errors."
-            },
-            "es": {
-              "title": "Full Stack Developer en [[Code Enterprises]]",
-              "text": "Nasir mejoró constantemente la eficiencia de nuestro desarrollo. Su capacidad para descomponer problemas complejos y ofrecer soluciones prácticas ayudó al equipo a avanzar más rápido con menos errores."
-            },
-            "fr": {
-              "title": "Développeur Full Stack chez [[Code Enterprises]]",
-              "text": "Nasir a constamment amélioré notre efficacité de développement. Sa capacité à simplifier des problèmes complexes et à proposer des solutions pratiques a permis à l’équipe d’avancer plus rapidement avec moins d’erreurs."
-            },
-            "ko": {
-              "title": "[[Code Enterprises]] 풀스택 개발자",
-              "text": "Nasir는 개발 효율성을 지속적으로 향상시켰습니다. 복잡한 문제를 단순화하고 실용적인 해결책을 제시하는 능력으로 팀의 속도와 정확성을 높였습니다."
             }
           }
         },
@@ -213,23 +160,14 @@
           },
           "img": "images/pictures/adil.png",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
               "title": "Software Developer at [[Code Enterprises]]",
               "text": "Nasir brings a strong balance of creativity and technical precision. He has a clear ability to turn abstract ideas into practical, well-structured solutions that are easy to maintain and scale."
-            },
-            "es": {
-              "title": "Desarrollador de Software en [[Code Enterprises]]",
-              "text": "Nasir aporta un gran equilibrio entre creatividad y precisión técnica. Tiene la capacidad de convertir ideas abstractas en soluciones prácticas, bien estructuradas y escalables."
-            },
-            "fr": {
-              "title": "Développeur Logiciel chez [[Code Enterprises]]",
-              "text": "Nasir apporte un excellent équilibre entre créativité et précision technique. Il transforme des idées abstraites en solutions pratiques, bien structurées et évolutives."
-            },
-            "ko": {
-              "title": "[[Code Enterprises]] 소프트웨어 개발자",
-              "text": "Nasir는 창의성과 기술적 정확성의 균형이 뛰어난 인재입니다. 추상적인 아이디어를 구조적이고 확장 가능한 실용적 솔루션으로 전환하는 능력이 있습니다."
             }
           }
         },
@@ -242,23 +180,14 @@
           },
           "img": "images/pictures/sadaf.jpeg",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
               "title": "UI/UX Designer at [[Code Enterprises]]",
               "text": "Nasir has a strong understanding of user experience and implementation detail. His work consistently helped bridge the gap between design and development, resulting in smoother and more intuitive interfaces."
-            },
-            "es": {
-              "title": "Diseñadora UI/UX en [[Code Enterprises]]",
-              "text": "Nasir tiene una gran comprensión de la experiencia de usuario y los detalles de implementación. Su trabajo ayudó a cerrar la brecha entre diseño y desarrollo, logrando interfaces más intuitivas."
-            },
-            "fr": {
-              "title": "Designer UI/UX chez [[Code Enterprises]]",
-              "text": "Nasir possède une excellente compréhension de l’expérience utilisateur et des détails d’implémentation. Son travail a permis de combler l’écart entre design et développement."
-            },
-            "ko": {
-              "title": "[[Code Enterprises]] UI/UX 디자이너",
-              "text": "Nasir는 사용자 경험과 구현 디테일에 대한 이해도가 높습니다. 디자인과 개발 사이의 간극을 줄여 더욱 직관적인 인터페이스를 만드는 데 기여했습니다."
             }
           }
         },
@@ -271,29 +200,19 @@
           },
           "img": "images/pictures/ahmad.jpeg",
           "faIcon": "",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "locales": {
             "en": {
               "title": "Lead AI Backend Engineer at [[Barq Flow]]",
               "text": "Nasir is highly dependable when it comes to translating requirements into production-ready solutions. His structured approach and attention to backend architecture noticeably improved system performance and maintainability."
-            },
-            "es": {
-              "title": "Ingeniero Líder de Backend de IA en [[Barq Flow]]",
-              "text": "Nasir es altamente confiable para transformar requisitos en soluciones listas para producción. Su enfoque estructurado mejoró notablemente el rendimiento y mantenibilidad del sistema."
-            },
-            "fr": {
-              "title": "Ingénieur Backend IA Principal chez [[Barq Flow]]",
-              "text": "Nasir est très fiable pour transformer les exigences en solutions prêtes pour la production. Son approche structurée a amélioré les performances et la maintenabilité du système."
-            },
-            "ko": {
-              "title": "[[Barq Flow]] 선임 AI 백엔드 엔지니어",
-              "text": "Nasir는 요구사항을 실제 운영 가능한 솔루션으로 전환하는 데 매우 신뢰할 수 있는 인재입니다. 그의 체계적인 접근 방식은 시스템 성능과 유지보수성을 크게 개선했습니다."
             }
           }
         }
       ]
     },
-
     {
       "id": 4,
       "component": "ArticleInfoList",
@@ -302,113 +221,88 @@
         "order_items_sort": "asc"
       },
       "locales": {
-        "en": { "title": "Personal {{interests}}" },
-        "es": { "title": "Intereses {{personales}}" },
-        "fr": { "title": "Intérêts {{personnels}} " },
-        "ko": { "title": "개인 {{관심사}}" }
+        "en": {
+          "title": "Personal {{interests}}"
+        }
       },
       "items": [
         {
           "id": 1,
           "faIcon": "fa-solid fa-video",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": null,
+            "tooltipString": null
+          },
           "copyToClipboardButton": false,
           "locales": {
             "en": {
               "title": "{{AI}} video editing",
               "text": "Learning to use AI tools to enhance my videos."
-            },
-            "es": {
-              "title": "Edición de video con {{AI}}",
-              "text": "Aprendiendo a usar herramientas de IA para mejorar mis videos."
-            },
-            "fr": {
-              "title": "Édition vidéo avec {{IA}}",
-              "text": "Apprendre à utiliser des outils d'IA pour améliorer mes vidéos."
-            },
-            "ko": {
-              "title": "{{AI}} 비디오 편집",
-              "text": "AI 도구를 사용하여 내 영상을 향상시키는 방법 배우기."
             }
           }
         },
         {
           "id": 2,
           "faIcon": "fa-solid fa-palette",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": null,
+            "tooltipString": null
+          },
           "copyToClipboardButton": false,
           "locales": {
             "en": {
               "title": "{{Arts}} & Illustration",
               "text": "Practicing digital art and exploring new styles."
-            },
-            "es": {
-              "title": "{{Arte}} y Ilustración",
-              "text": "Practicando arte digital y explorando nuevos estilos."
-            },
-            "fr": {
-              "title": "{{Arts}} & Illustration",
-              "text": "Pratiquer l'art numérique et explorer de nouveaux styles."
-            },
-            "ko": {
-              "title": "{{예술}} 및 일러스트레이션",
-              "text": "디지털 아트를 연습하고 새로운 스타일을 탐험하기."
             }
           }
         },
         {
           "id": 3,
           "faIcon": "fa-solid fa-chart-line",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": null,
+            "tooltipString": null
+          },
           "copyToClipboardButton": false,
           "locales": {
             "en": {
               "title": "{{Investing}} & Finance",
               "text": "Learning the basics of stocks and personal finance."
-            },
-            "es": {
-              "title": "{{Inversión}} y Finanzas",
-              "text": "Aprendiendo los conceptos básicos de acciones y finanzas personales."
-            },
-            "fr": {
-              "title": "{{Investissement}} & Finance",
-              "text": "Apprendre les bases des actions et des finances personnelles."
-            },
-            "ko": {
-              "title": "{{투자}} 및 재정 관리",
-              "text": "주식과 개인 재정의 기초 배우기."
             }
           }
         },
         {
           "id": 4,
           "faIcon": "fa-solid fa-window-restore",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": null,
+            "tooltipString": null
+          },
           "copyToClipboardButton": false,
           "locales": {
             "en": {
               "title": "{{UX}} design",
               "text": "Studying user experience principles."
-            },
-            "es": {
-              "title": "Diseño {{UX}}",
-              "text": "Estudiando los principios de la experiencia del usuario."
-            },
-            "fr": {
-              "title": "Conception {{UX}}",
-              "text": "Étudier les principes de l'expérience utilisateur."
-            },
-            "ko": {
-              "title": "{{UX}} 디자인",
-              "text": "사용자 경험 원칙을 공부하기."
             }
           }
         },
@@ -416,52 +310,40 @@
           "id": 5,
           "img": "",
           "faIcon": "fa-solid fa-camera-retro",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": null,
+            "tooltipString": null
+          },
           "copyToClipboardButton": false,
           "locales": {
             "en": {
               "title": "{{Photography}} & Photoshop",
               "text": "Enhancing photos through creative editing techniques."
-            },
-            "es": {
-              "title": "{{Fotografía}} y Photoshop",
-              "text": "Mejorando fotos a través de técnicas creativas de edición."
-            },
-            "fr": {
-              "title": "{{Photographie}} & Photoshop",
-              "text": "Améliorer des photos avec des techniques de montage créatives."
-            },
-            "ko": {
-              "title": "{{사진}} 및 포토샵",
-              "text": "창의적인 편집 기술을 통해 사진을 향상시키기."
             }
           }
         },
         {
           "id": 6,
           "faIcon": "fa-solid fa-drum-steelpan",
-          "faIconColors": { "bg": "", "fill": "" },
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
           "label": null,
-          "link": { "href": null, "tooltipString": null },
+          "link": {
+            "href": null,
+            "tooltipString": null
+          },
           "copyToClipboardButton": false,
           "locales": {
             "en": {
               "title": "Playing {{drums}}",
               "text": "Exploring different genres and improving my skills."
-            },
-            "es": {
-              "title": "Tocar {{batería}}",
-              "text": "Explorando diferentes géneros y mejorando mis habilidades."
-            },
-            "fr": {
-              "title": "Jouer de la {{batterie}}",
-              "text": "Explorer différents genres et améliorer mes compétences."
-            },
-            "ko": {
-              "title": "{{드럼}} 연주",
-              "text": "다양한 장르를 탐험하고 기술을 향상시키기."
             }
           }
         }

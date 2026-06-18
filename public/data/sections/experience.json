@@ -1,179 +1,67 @@
 {
-    "title": {
-        "locales": {
-            "en": {
-                "title_short": "Experience",
-                "title_short_nav": "Experience",
-                "title_long_prefix": "Professional",
-                "title_long": "{{Work}} Experience"
-            },
-            "es": {
-                "title_short": "Experiencia",
-                "title_short_nav": "Experiencia",
-                "title_long_prefix": "Experiencia",
-                "title_long": "Profesional {{Laboral}}"
-            },
-            "fr": {
-                "title_short": "Expérience",
-                "title_short_nav": "Expérience",
-                "title_long_prefix": "Expérience",
-                "title_long": "Professionnelle {{Travail}}"
-            },
-            "ko": {
-                "title_short": "경험",
-                "title_short_nav": "경험",
-                "title_long_prefix": "전문",
-                "title_long": "{{직무}} 경험"
-            }
-        }
-    },
-
-    "articles": [
+  "title": {
+    "locales": {
+      "en": {
+        "title_short": "Experience",
+        "title_short_nav": "Experience",
+        "title_long_prefix": "Professional",
+        "title_long": "{{Work}} Experience"
+      }
+    }
+  },
+  "articles": [
+    {
+      "id": 1,
+      "component": "ArticleTimeline",
+      "settings": {
+        "order_items_by": "id",
+        "order_items_sort": "dateStart"
+      },
+      "items": [
         {
-            "id": 1,
-            "component": "ArticleTimeline",
-            "settings": {
-                "order_items_by": "id",
-                "order_items_sort": "dateStart"
-            },
-
-            "items": [
-                {
-                    "id": 1,
-                    "img": "images/pictures/codeEnter.jpeg",
-
-                    "dateStart": { "year": 2023, "month": 5 },
-                    "dateEnd": { "year": 2026, "month": 1 },
-
-                    "locales": {
-                        "en": {
-                            "title": "Full Stack Developer (MERN Stack)",
-                            "province": "Islamabad",
-                            "country": "Pakistan",
-                            "institution": "Code Enterprise Pvt Ltd",
-
-                            "text": "Developed and maintained scalable full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Next.js. Focused on clean architecture, performance optimization, API integration, and Agile development practices.",
-
-                            "list": [
-                                "Designed and developed scalable full-stack applications using the MERN stack and Next.js following modern engineering standards.",
-                                "Built and integrated RESTful APIs and third-party services to enhance application performance and functionality.",
-                                "Managed MongoDB databases with strong focus on schema design, indexing, and query optimization.",
-                                "Collaborated with UI/UX designers, QA engineers, and backend developers to deliver high-quality production-ready applications.",
-                                "Maintained code quality through Git version control, peer code reviews, debugging, and structured deployment workflows.",
-                                "Participated actively in Agile/Scrum methodologies including sprint planning, standups, and technical discussions."
-                            ],
-
-                            "tags": [
-                                "Full Stack Development",
-                                "MERN Stack",
-                                "MongoDB",
-                                "Express.js",
-                                "React.js",
-                                "Node.js",
-                                "Next.js",
-                                "REST APIs",
-                                "Git",
-                                "Agile",
-                                "Team Collaboration",
-                                "Performance Optimization"
-                            ]
-                        },
-
-                        "es": {
-                            "title": "Desarrollador Full Stack (MERN Stack)",
-                            "province": "Islamabad",
-                            "country": "Pakistán",
-                            "institution": "Code Enterprise Pvt Ltd",
-
-                            "text": "Desarrollé y mantuve aplicaciones web full-stack escalables utilizando el stack MERN (MongoDB, Express.js, React.js, Node.js) y Next.js. Enfoque en arquitectura limpia, optimización de rendimiento, integración de APIs y metodologías Agile.",
-
-                            "list": [
-                                "Diseñé y desarrollé aplicaciones full-stack escalables utilizando MERN y Next.js siguiendo estándares modernos.",
-                                "Integré APIs RESTful y servicios de terceros para mejorar el rendimiento y funcionalidad.",
-                                "Gestioné bases de datos MongoDB con enfoque en diseño de esquemas, indexación y optimización de consultas.",
-                                "Colaboré con equipos de UI/UX, QA y backend para entregar aplicaciones de alta calidad.",
-                                "Mantuve la calidad del código usando Git, revisiones de código y procesos de despliegue estructurados.",
-                                "Participé activamente en metodologías Agile/Scrum."
-                            ],
-
-                            "tags": [
-                                "Desarrollo Full Stack",
-                                "MERN Stack",
-                                "MongoDB",
-                                "Express.js",
-                                "React.js",
-                                "Node.js",
-                                "Next.js",
-                                "APIs REST",
-                                "Git",
-                                "Agile"
-                            ]
-                        },
-
-                        "fr": {
-                            "title": "Développeur Full Stack (MERN Stack)",
-                            "province": "Islamabad",
-                            "country": "Pakistan",
-                            "institution": "Code Enterprise Pvt Ltd",
-
-                            "text": "Développement et maintenance d'applications web full-stack évolutives utilisant la stack MERN (MongoDB, Express.js, React.js, Node.js) et Next.js. Accent sur une architecture propre, l'optimisation des performances, l'intégration d'API et les méthodes Agile.",
-
-                            "list": [
-                                "Conception et développement d'applications full-stack évolutives avec MERN et Next.js.",
-                                "Intégration d'API RESTful et de services tiers pour améliorer les fonctionnalités.",
-                                "Optimisation des bases de données MongoDB (schéma, indexation, requêtes).",
-                                "Collaboration avec les équipes UI/UX, QA et backend pour livrer des solutions de qualité.",
-                                "Maintien de la qualité du code via Git, revues de code et workflows de déploiement.",
-                                "Participation active aux processus Agile/Scrum."
-                            ],
-
-                            "tags": [
-                                "Développement Full Stack",
-                                "MERN Stack",
-                                "MongoDB",
-                                "Express.js",
-                                "React.js",
-                                "Node.js",
-                                "Next.js",
-                                "API REST",
-                                "Git",
-                                "Agile"
-                            ]
-                        },
-
-                        "ko": {
-                            "title": "풀스택 개발자 (MERN 스택)",
-                            "province": "이슬라마바드",
-                            "country": "파키스탄",
-                            "institution": "Code Enterprise Pvt Ltd",
-
-                            "text": "MongoDB, Express.js, React.js, Node.js 및 Next.js를 사용하여 확장 가능한 풀스택 웹 애플리케이션을 개발 및 유지보수했습니다. 클린 아키텍처, 성능 최적화, API 통합 및 Agile 개발 방식에 집중했습니다.",
-
-                            "list": [
-                                "MERN 스택과 Next.js를 활용하여 확장 가능한 풀스택 애플리케이션 설계 및 개발.",
-                                "RESTful API 및 외부 서비스 통합으로 기능 향상.",
-                                "MongoDB 데이터베이스 스키마 설계 및 쿼리 최적화.",
-                                "UI/UX, QA, 백엔드 팀과 협업하여 고품질 소프트웨어 제공.",
-                                "Git 기반 코드 관리 및 코드 리뷰 수행.",
-                                "Agile/Scrum 프로세스에 적극 참여."
-                            ],
-
-                            "tags": [
-                                "풀스택 개발",
-                                "MERN 스택",
-                                "MongoDB",
-                                "Express.js",
-                                "React.js",
-                                "Node.js",
-                                "Next.js",
-                                "REST API",
-                                "Git",
-                                "Agile"
-                            ]
-                        }
-                    }
-                }
-            ]
+          "id": 1,
+          "img": "images/pictures/codeEnter.jpeg",
+          "dateStart": {
+            "year": 2023,
+            "month": 5
+          },
+          "dateEnd": {
+            "year": 2026,
+            "month": 1
+          },
+          "locales": {
+            "en": {
+              "title": "Full Stack Developer",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "Code Enterprise Pvt Ltd",
+              "text": "Developed and maintained production full-stack web applications across React, Next.js, Node.js, Express.js, and NestJS—with strong focus on clean architecture, API design, database performance, SEO, real-time features, and Agile delivery.",
+              "list": [
+                "Built scalable frontend experiences with React.js, Next.js, TypeScript, Redux, and React Query—including SSR, SSG, and CSR rendering patterns.",
+                "Engineered RESTful and real-time backends with Node.js, Express.js, NestJS, and Socket.IO, integrated with MySQL, MongoDB, and PostgreSQL.",
+                "Designed data layers using Prisma, TypeORM, and Sequelize; optimized queries, indexing, and Redis caching for performance.",
+                "Implemented authentication, role-based access, and secure API workflows for production client platforms.",
+                "Shipped tested, maintainable code with Jest, React Testing Library, and Cypress; deployed services on AWS (EC2, S3, Lambda).",
+                "Collaborated with UI/UX, QA, and engineering teams in Agile/Scrum to deliver HR, messaging, and LMS products on schedule."
+              ],
+              "tags": [
+                "Full Stack Development",
+                "React.js",
+                "Next.js",
+                "TypeScript",
+                "Node.js",
+                "NestJS",
+                "MongoDB",
+                "PostgreSQL",
+                "Socket.IO",
+                "AWS",
+                "SEO",
+                "Agile"
+              ]
+            }
+          }
         }
-    ]
+      ]
+    }
+  ]
 }

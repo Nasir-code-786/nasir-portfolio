@@ -1,5 +1,4 @@
 /**
- * @author Ryan Balieiro
  * @description Use this script to wipe all existing resume data and start fresh with a blank resume.
  *
  * @usage
@@ -38,8 +37,8 @@ jsonUtils.overwrite(jSettingsPath, {
 
     preloaderSettings: {
         enabled: true,
-        title: "React <b>Portfolio</b>",
-        subtitle: "by Ryan Balieiro",
+        title: "Crafting <strong>Digital Excellence</strong>",
+        subtitle: "Full-Stack Developer · MERN Stack · Scalable Web Applications",
         logoOffset: {
             right: 14,
             top: 2,
@@ -58,7 +57,7 @@ jsonUtils.overwrite(jSettingsPath, {
 
     supportedLanguages: [
         {
-            name: "English",
+            name: "English (US)",
             id: "en",
             flagUrl: "images/flags/en-us.png"
         }
@@ -70,8 +69,7 @@ jsonUtils.overwrite(jSettingsPath, {
             icon: "fa-solid fa-moon",
             dark: true,
             locales: {
-                en: {"name": "Dark Mode"},
-                es: {"name": "Modo Oscuro"}
+                en: {"name": "Dark Mode"}
             }
         },
 
@@ -80,25 +78,24 @@ jsonUtils.overwrite(jSettingsPath, {
             icon: "fa-solid fa-sun",
             dark: false,
             locales: {
-                en: {"name": "Light Mode"},
-                es: {"name": "Modo Claro"}
+                en: {"name": "Light Mode"}
             }
         }
     ],
 
     consoleMessageForDevelopers: {
-        title: "\uD83D\uDDA5️ Hey there, fellow developer!",
+        title: "Hello! You've found the console.",
         items: [
             {
-                description: "This is an open-source template based on the React framework.",
+                description: "This portfolio was built with React and Vite.",
                 list: [],
                 listStyle: "none"
             },
             {
-                description: "Like what you see? Let's connect!",
+                description: "Interested in collaborating?",
                 list: [
-                    "GitHub: https://github.com/username",
-                    "Website: https://website.com"
+                    "LinkedIn: https://www.linkedin.com/in/nasir-khan-344973363",
+                    "Email: nasir.mehsud.work@gmail.com"
                 ],
                 listStyle: "bulleted"
             }
