@@ -11,10 +11,10 @@
       "localized_name_stylized": "[[Nasir {{Khan}}]]",
       "status_message_available_for_freelance": "Available for freelance opportunities",
       "roles": [
-        "MERN Stack Developer",
         "Full Stack Developer",
-        "Frontend Engineer",
-        "Backend Engineer"
+        "React & Next.js Engineer",
+        "Node.js Backend Engineer",
+        "Frontend Engineer"
       ],
       "name_pronunciation_ipa": "nasir khan",
       "name_pronunciation_audio_url": "audio/english-name-pronunciation.mp3"

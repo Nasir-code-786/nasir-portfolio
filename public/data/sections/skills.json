@@ -37,8 +37,8 @@
           },
           "locales": {
             "en": {
-              "title": "Frontend Development (React.js)",
-              "text": "I build modern, responsive, and dynamic user interfaces using React.js with reusable components, optimized state management, and performance-focused architecture."
+              "title": "Frontend Development (React & Next.js)",
+              "text": "I build fast, accessible, and SEO-friendly interfaces with React.js and Next.js—using TypeScript, modern rendering patterns, and polished UI systems with Tailwind CSS and Bootstrap."
             }
           }
         },
@@ -60,8 +60,8 @@
           },
           "locales": {
             "en": {
-              "title": "Backend Development (Node.js & Express)",
-              "text": "I develop scalable and secure backend systems using Node.js and Express.js, focusing on clean architecture, API design, and efficient request handling."
+              "title": "Backend Development (Node.js & NestJS)",
+              "text": "I develop scalable backend systems with Node.js, Express.js, and NestJS—including RESTful APIs, Socket.IO real-time features, and production-ready service architecture."
             }
           }
         },
@@ -83,8 +83,8 @@
           },
           "locales": {
             "en": {
-              "title": "Database Design (MongoDB)",
-              "text": "Experienced in designing and managing MongoDB databases, including schema design, indexing, aggregation pipelines, and performance optimization."
+              "title": "Database & ORM Engineering",
+              "text": "Experienced across MySQL, MongoDB, and PostgreSQL—with Prisma, TypeORM, and Sequelize for schema design, migrations, indexing, and query optimization."
             }
           }
         },
@@ -152,8 +152,8 @@
           },
           "locales": {
             "en": {
-              "title": "Full Stack Integration (MERN)",
-              "text": "I build complete full-stack applications using MongoDB, Express, React, and Node.js, ensuring seamless integration between frontend and backend systems."
+              "title": "Full Stack Engineering",
+              "text": "I deliver complete product builds—from React/Next.js frontends and Node/Nest APIs to databases, Redis caching, AWS deployment, and automated testing with Jest and Cypress."
             }
           }
         }
@@ -363,6 +363,111 @@
               "level": ""
             }
           }
+        },
+        {
+          "id": 10,
+          "img": "",
+          "faIcon": "fa-solid fa-n",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#000000"
+          },
+          "date": {
+            "year": 2023,
+            "month": 8
+          },
+          "percentage": 92,
+          "locales": {
+            "en": {
+              "title": "Next.js",
+              "text": "Experienced in building production apps with Next.js App Router, server components, and SSR/SSG rendering for performance and SEO.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 11,
+          "img": "",
+          "faIcon": "fa-brands fa-js",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#3178C6"
+          },
+          "date": {
+            "year": 2023,
+            "month": 6
+          },
+          "percentage": 88,
+          "locales": {
+            "en": {
+              "title": "TypeScript",
+              "text": "Strong TypeScript skills for type-safe React and Node.js codebases with improved maintainability and developer experience.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 12,
+          "img": "",
+          "faIcon": "fa-brands fa-bootstrap",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#7952B3"
+          },
+          "date": {
+            "year": 2022,
+            "month": 6
+          },
+          "percentage": 90,
+          "locales": {
+            "en": {
+              "title": "Bootstrap",
+              "text": "Proficient in Bootstrap for responsive layouts, component systems, and rapid UI delivery across web applications.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 13,
+          "img": "",
+          "faIcon": "fa-solid fa-arrows-rotate",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#FF4154"
+          },
+          "date": {
+            "year": 2024,
+            "month": 4
+          },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "React Query",
+              "text": "Skilled in server-state management with React Query for efficient data fetching, caching, and synchronized UI updates.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 14,
+          "img": "",
+          "faIcon": "fa-solid fa-magnifying-glass-chart",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#10B981"
+          },
+          "date": {
+            "year": 2024,
+            "month": 1
+          },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "SEO",
+              "text": "Experienced in technical SEO—metadata, structured data, sitemaps, Core Web Vitals, and search-friendly rendering strategies.",
+              "level": ""
+            }
+          }
         }
       ]
     },
@@ -507,6 +612,90 @@
               "level": ""
             }
           }
+        },
+        {
+          "id": 7,
+          "img": "",
+          "faIcon": "fa-solid fa-cubes",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#E0234E"
+          },
+          "date": {
+            "year": 2024,
+            "month": 6
+          },
+          "percentage": 82,
+          "locales": {
+            "en": {
+              "title": "NestJS",
+              "text": "Built modular, testable backend services with NestJS using structured architecture, dependency injection, and scalable API design.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 8,
+          "img": "",
+          "faIcon": "fa-solid fa-database",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#336791"
+          },
+          "date": {
+            "year": 2023,
+            "month": 10
+          },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "PostgreSQL",
+              "text": "Proficient in PostgreSQL for relational modeling, complex queries, joins, and performance tuning in production applications.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 9,
+          "img": "",
+          "faIcon": "fa-solid fa-bolt",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#010101"
+          },
+          "date": {
+            "year": 2024,
+            "month": 3
+          },
+          "percentage": 88,
+          "locales": {
+            "en": {
+              "title": "Socket.IO",
+              "text": "Implemented real-time messaging, presence, and live updates with Socket.IO in full-stack production applications.",
+              "level": ""
+            }
+          }
+        },
+        {
+          "id": 10,
+          "img": "",
+          "faIcon": "fa-solid fa-layer-group",
+          "faIconColors": {
+            "bg": "",
+            "fill": "#2D3748"
+          },
+          "date": {
+            "year": 2024,
+            "month": 5
+          },
+          "percentage": 85,
+          "locales": {
+            "en": {
+              "title": "Prisma ORM",
+              "text": "Experienced with Prisma for type-safe database access, migrations, and maintainable schema management.",
+              "level": ""
+            }
+          }
         }
       ]
     },
@@ -563,7 +752,7 @@
           "locales": {
             "en": {
               "title": "AWS (Cloud Deployment)",
-              "text": "Experienced in deploying backend and full-stack applications using AWS services such as EC2 and S3.",
+              "text": "Experienced in deploying and operating applications on AWS using EC2, S3, and Lambda for scalable production workloads.",
               "level": ""
             }
           }

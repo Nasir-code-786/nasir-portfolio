@@ -59,7 +59,7 @@
           },
           "locales": {
             "en": {
-              "title": "MERN",
+              "title": "Full Stack",
               "text": "Primary tech stack"
             }
           }
@@ -158,7 +158,7 @@
               "province": "Islamabad",
               "country": "Pakistan",
               "institution": "Code Enterprise Pvt Ltd",
-              "text": "Started working as a Full Stack Developer, building scalable MERN and Next.js applications for production clients while collaborating closely with designers, QA, and backend teams."
+              "text": "Started working as a Full Stack Developer, building scalable React, Next.js, and Node.js applications for production clients while collaborating closely with designers, QA, and backend teams."
             }
           }
         },

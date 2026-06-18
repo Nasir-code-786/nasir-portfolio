@@ -31,32 +31,32 @@
           },
           "locales": {
             "en": {
-              "title": "Full Stack Developer (MERN Stack)",
+              "title": "Full Stack Developer",
               "province": "Islamabad",
               "country": "Pakistan",
               "institution": "Code Enterprise Pvt Ltd",
-              "text": "Developed and maintained scalable full-stack web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js) and Next.js. Focused on clean architecture, performance optimization, API integration, and Agile development practices.",
+              "text": "Developed and maintained production full-stack web applications across React, Next.js, Node.js, Express.js, and NestJS—with strong focus on clean architecture, API design, database performance, SEO, real-time features, and Agile delivery.",
               "list": [
-                "Designed and developed scalable full-stack applications using the MERN stack and Next.js following modern engineering standards.",
-                "Built and integrated RESTful APIs and third-party services to enhance application performance and functionality.",
-                "Managed MongoDB databases with strong focus on schema design, indexing, and query optimization.",
-                "Collaborated with UI/UX designers, QA engineers, and backend developers to deliver high-quality production-ready applications.",
-                "Maintained code quality through Git version control, peer code reviews, debugging, and structured deployment workflows.",
-                "Participated actively in Agile/Scrum methodologies including sprint planning, standups, and technical discussions."
+                "Built scalable frontend experiences with React.js, Next.js, TypeScript, Redux, and React Query—including SSR, SSG, and CSR rendering patterns.",
+                "Engineered RESTful and real-time backends with Node.js, Express.js, NestJS, and Socket.IO, integrated with MySQL, MongoDB, and PostgreSQL.",
+                "Designed data layers using Prisma, TypeORM, and Sequelize; optimized queries, indexing, and Redis caching for performance.",
+                "Implemented authentication, role-based access, and secure API workflows for production client platforms.",
+                "Shipped tested, maintainable code with Jest, React Testing Library, and Cypress; deployed services on AWS (EC2, S3, Lambda).",
+                "Collaborated with UI/UX, QA, and engineering teams in Agile/Scrum to deliver HR, messaging, and LMS products on schedule."
               ],
               "tags": [
                 "Full Stack Development",
-                "MERN Stack",
-                "MongoDB",
-                "Express.js",
                 "React.js",
-                "Node.js",
                 "Next.js",
-                "REST APIs",
-                "Git",
-                "Agile",
-                "Team Collaboration",
-                "Performance Optimization"
+                "TypeScript",
+                "Node.js",
+                "NestJS",
+                "MongoDB",
+                "PostgreSQL",
+                "Socket.IO",
+                "AWS",
+                "SEO",
+                "Agile"
               ]
             }
           }
