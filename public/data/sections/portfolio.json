@@ -112,7 +112,24 @@
             "fill": ""
           },
           "preview": {
-            "screenshots": [],
+            "screenshots": [
+              "images/pictures/ilm-10.png",
+              "images/pictures/ilm-11.png",
+              "images/pictures/ilm-12.png",
+              "images/pictures/ilm-13.png",
+              "images/pictures/ilm-14.png",
+              "images/pictures/ilm-15.png",
+              "images/pictures/ilm-1.png",
+              "images/pictures/ilm-2.png",
+              "images/pictures/ilm-3.png",
+              "images/pictures/ilm-4.png",
+              "images/pictures/ilm-5.png",
+              "images/pictures/ilm-6.png",
+              "images/pictures/ilm-7.png",
+              "images/pictures/ilm-8.png",
+              "images/pictures/ilm-9.png"
+
+            ],
             "screenshotsAspectRatio": "16:9",
             "links": [
               {

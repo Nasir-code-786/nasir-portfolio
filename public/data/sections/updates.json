@@ -255,6 +255,72 @@
               ]
             }
           }
+        },
+        {
+          "id": 5,
+          "date": {
+            "year": 2026,
+            "month": 6
+          },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Nasir-code-786/sync-chat",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Built and launched {{SyncChat}}",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "",
+              "text": "Designed and developed SyncChat—a full-stack real-time 1:1 messaging application with a modern chat experience, delivery and read receipts, rich media support, and production-ready security.",
+              "list": [
+                "React, Express, MongoDB, and Socket.IO real-time architecture",
+                "Read receipts, typing indicators, reactions, and offline message queue",
+                "JWT and Google OAuth authentication with admin moderation panel"
+              ]
+            }
+          }
+        },
+        {
+          "id": 6,
+          "date": {
+            "year": 2026,
+            "month": 6
+          },
+          "preview": {
+            "links": [
+              {
+                "href": "https://github.com/Nasir-code-786/ilm-give",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-github"
+              }
+            ],
+            "screenshots": [],
+            "screenshotsAspectRatio": "",
+            "youtubeVideo": ""
+          },
+          "locales": {
+            "en": {
+              "title": "Created {{ILM Give}} learning platform",
+              "province": "Islamabad",
+              "country": "Pakistan",
+              "institution": "",
+              "text": "Built ILM Give, a monorepo LMS for schools and institutes—combining academics, assignments, grading, public blog publishing, and charity fundraising in one role-based workspace.",
+              "list": [
+                "Next.js frontend with admin, teacher, and student dashboards",
+                "Express API with MongoDB for enrollments, submissions, and notifications",
+                "Public charity campaigns with Stripe donations and SEO-ready blog pages"
+              ]
+            }
+          }
         }
       ]
     }
