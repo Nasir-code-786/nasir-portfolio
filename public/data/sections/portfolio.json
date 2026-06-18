@@ -101,6 +101,40 @@
               ]
             }
           }
+        },
+        {
+          "id": 3,
+          "categoryId": "category_web",
+          "img": "",
+          "faIcon": "fa-solid fa-graduation-cap",
+          "faIconColors": {
+            "bg": "",
+            "fill": ""
+          },
+          "preview": {
+            "screenshots": [],
+            "screenshotsAspectRatio": "16:9",
+            "links": [
+              {
+                "href": "https://github.com/Nasir-code-786/ilm-give",
+                "tooltipString": "open_website",
+                "faIcon": "fa-brands fa-github"
+              }
+            ]
+          },
+          "locales": {
+            "en": {
+              "title": "ILM Give",
+              "text": "ILM Give is a modern learning management platform for schools and educational institutes, built as a <b>Next.js</b> and <b>Express</b> monorepo with <b>MongoDB</b>. It unifies academics, assignments, grading, notifications, and role-based dashboards for admins, teachers, and students—alongside a public website with blog publishing, charity campaigns, and a <b>Stripe</b>-powered donation flow. Admins manage users, content, and contact submissions through a full CMS, while public routes ship with SEO metadata, sitemaps, and structured data for discoverability.",
+              "tags": [
+                "Next.js",
+                "LMS",
+                "MongoDB",
+                "Stripe Donations",
+                "Role-Based Access"
+              ]
+            }
+          }
         }
       ]
     }
